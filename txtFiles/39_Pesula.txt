@@ -1,0 +1,1 @@
+['3', '5.5.23 8:46:21', '5.5.23 8:48:57', 'Johanna.Myllyla@helsinkishipyard.fi', 'Johanna Myllylä', '39\tPesula', 'Kyllä', 'Alimiehitys', 'Hyvät hitsarit', 'Paljon muutoksia, materiaali myöhässä', 'Alihankkijavalinta', 'KT myöhässä mutta yhteistyö sujui ok', 'Jee jee']
