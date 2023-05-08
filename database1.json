@@ -1,0 +1,130 @@
+{
+    "NB518": {
+        "Hull and Blocks": {},
+        "Area outfitting": {
+            "84 Ulkokansi, poreamme": {
+                "ID": [
+                    "1"
+                ],
+                "Start time": [
+                    "2023-05-05 08:43:04"
+                ],
+                "Completion time": [
+                    "2023-05-05 08:45:01"
+                ],
+                "Email": [
+                    "ahti.helminen@helsinkishipyard.fi"
+                ],
+                "Name": [
+                    "Ahti Helminen"
+                ],
+                "Valitse yksi alueistasi": [
+                    "84\tUlkokansi, poreamme"
+                ],
+                "Oliko alueella sinun vastuullasi alihankintaa?": [
+                    "Ei"
+                ],
+                "Mit\u00e4 ongelmia alihankkijan kanssa oli?": [
+                    ""
+                ],
+                "Mit\u00e4 positiivista alihankkijassa oli?": [
+                    ""
+                ],
+                "Mitk\u00e4 olivat suurimmat ongelmat yleisesti alueella?": [
+                    "Ty\u00f6ntekij\u00f6iden laiskuus"
+                ],
+                "Mit\u00e4 asioita tulisi parantaa ettei ongelmat toistuisi seuraavassa projektissa?": [
+                    "Parempi rekrytointi"
+                ],
+                "Kuinka yhteisty\u00f6 sujui ymp\u00e4rill\u00e4 olevien alueiden vastuuhenkil\u00f6iden kanssa?": [
+                    "Erinomaisesti"
+                ],
+                "Yleinen palaute?": [
+                    "Toimiva kysely"
+                ]
+            },
+            "85 Kuntosali, Spa, Sauna, Kampaamo": {
+                "ID": [
+                    "2"
+                ],
+                "Start time": [
+                    "2023-05-05 08:43:00"
+                ],
+                "Completion time": [
+                    "2023-05-05 08:45:58"
+                ],
+                "Email": [
+                    "tero.tiuraniemi@helsinkishipyard.fi"
+                ],
+                "Name": [
+                    "Tero Tiuraniemi"
+                ],
+                "Valitse yksi alueistasi": [
+                    "85\tKuntosali, Spa, Sauna, Kampaamo"
+                ],
+                "Oliko alueella sinun vastuullasi alihankintaa?": [
+                    "Ei"
+                ],
+                "Mit\u00e4 ongelmia alihankkijan kanssa oli?": [
+                    ""
+                ],
+                "Mit\u00e4 positiivista alihankkijassa oli?": [
+                    ""
+                ],
+                "Mitk\u00e4 olivat suurimmat ongelmat yleisesti alueella?": [
+                    "P\u00f6ly, meteli ja liian v\u00e4h\u00e4inen m\u00e4\u00e4r\u00e4 karkkia"
+                ],
+                "Mit\u00e4 asioita tulisi parantaa ettei ongelmat toistuisi seuraavassa projektissa?": [
+                    "Firman tulisi tarjota kiloittain makeisia merikoematkalle mukaan."
+                ],
+                "Kuinka yhteisty\u00f6 sujui ymp\u00e4rill\u00e4 olevien alueiden vastuuhenkil\u00f6iden kanssa?": [
+                    "Hyvin. Henkil\u00f6n X kanssa juotiin konjakkia ja puhuttiin telakan tulevaisuudesta kuubalaisten sikareiden ohessa"
+                ],
+                "Yleinen palaute?": [
+                    "Ruoka oli l\u00e4mmint\u00e4 ja sit\u00e4 oli riitt\u00e4v\u00e4sti"
+                ]
+            },
+            "39 Pesula": {
+                "ID": [
+                    "3"
+                ],
+                "Start time": [
+                    "2023-05-05 08:46:21"
+                ],
+                "Completion time": [
+                    "2023-05-05 08:48:57"
+                ],
+                "Email": [
+                    "Johanna.Myllyla@helsinkishipyard.fi"
+                ],
+                "Name": [
+                    "Johanna Myllyl\u00e4"
+                ],
+                "Valitse yksi alueistasi": [
+                    "39\tPesula"
+                ],
+                "Oliko alueella sinun vastuullasi alihankintaa?": [
+                    "Kyll\u00e4"
+                ],
+                "Mit\u00e4 ongelmia alihankkijan kanssa oli?": [
+                    "Alimiehitys"
+                ],
+                "Mit\u00e4 positiivista alihankkijassa oli?": [
+                    "Hyv\u00e4t hitsarit"
+                ],
+                "Mitk\u00e4 olivat suurimmat ongelmat yleisesti alueella?": [
+                    "Paljon muutoksia, materiaali my\u00f6h\u00e4ss\u00e4"
+                ],
+                "Mit\u00e4 asioita tulisi parantaa ettei ongelmat toistuisi seuraavassa projektissa?": [
+                    "Alihankkijavalinta"
+                ],
+                "Kuinka yhteisty\u00f6 sujui ymp\u00e4rill\u00e4 olevien alueiden vastuuhenkil\u00f6iden kanssa?": [
+                    "KT my\u00f6h\u00e4ss\u00e4 mutta yhteisty\u00f6 sujui ok"
+                ],
+                "Yleinen palaute?": [
+                    "Jee jee"
+                ]
+            }
+        }
+    }
+}
