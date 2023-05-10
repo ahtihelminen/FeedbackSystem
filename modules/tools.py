@@ -9,14 +9,16 @@ class Tools:
         pass
 
     def convertXlsxToCsv(self, excelFeedackFile):
-        dataFrameToBeConverted = pd.read_excel(excelFeedackFile)
-        
-        csvFilepath = f"../feedbacksCsv/{excelFeedackFile.replace('.xlsx', '.csv')}"
-        dirname = os.path.dirname(__file__)
-        csvFilepath = os.path.join(dirname, csvFilepath)
+        excelFilepathRel = f"../feedbacksExcel/{excelFeedackFile}"
+        excelFilepathAbs=self.relativeFilepathToAbsolute(excelFilepathRel)
 
-        dataFrameToBeConverted.to_csv(csvFilepath, index=None, header=True, sep=';', encoding='utf-8')
-        return csvFilepath
+        dataFrameToBeConverted = pd.read_excel(excelFilepathAbs)
+        
+        csvFilepathRel = f"../feedbacksCsv/{excelFeedackFile.replace('.xlsx', '.csv')}"
+        csvFilepathAbs = self.relativeFilepathToAbsolute(csvFilepathRel)
+
+        dataFrameToBeConverted.to_csv(csvFilepathAbs, index=None, header=True, sep=';', encoding='utf-8')
+        return csvFilepathAbs
 
     def convertCsvToList(self, filename):
         with open(filename, 'r', encoding='utf-8') as csv_file:
@@ -33,4 +35,27 @@ class Tools:
         return stringToChange
     
     def readDB(self, feedbackDatabase):
+        pass
+
+    def questionAnswerDict(self, answerRow, questions):
+        answerDict = {}
+        for question, answer in zip(questions, answerRow):
+            answerDict[question] = answer
+        return answerDict
+    
+    def relativeFilepathToAbsolute(self, relativeFilepath):
+
+        dirname = os.path.dirname(__file__)
+        return os.path.join(dirname, relativeFilepath)
+    
+    def removeQuestionsWithNoAnswer(self, Q_A_dict):
+        Q_A_dictCopy = Q_A_dict.copy()
+
+        for question, answer in Q_A_dict.items():
+            if answer == '':
+                Q_A_dictCopy.pop(question)
+        return Q_A_dictCopy
+
+
+    def removePersonalData(self, Q_A_dict):
         pass
