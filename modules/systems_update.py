@@ -1,6 +1,6 @@
 from tools import Tools
 import json
-import os
+
 
 class SystemsUpdate(Tools):
     def __init__(self, excelSystemsFeedackFile, feedbackDatabase):
@@ -10,9 +10,7 @@ class SystemsUpdate(Tools):
         self.csvSystemsFeedbackFile = None
         self.listSystemsFeedbackFile = None
         self.ship = 'NB518'
-    
 
-    
 
     def extractSystems(self, Q_A_dict):
         try:
@@ -75,8 +73,8 @@ class SystemsUpdate(Tools):
                             if question not in databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship]:
                                 databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question] = []
                             
-                            #if answer not in databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question]:
-                            #   databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question].append(answer)
+                            if answer not in databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question]:
+                               databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question].append(answer)
 
                 json.dump(databaseToUpdate, databaseToWrite, indent=4)
             except Exception as e:

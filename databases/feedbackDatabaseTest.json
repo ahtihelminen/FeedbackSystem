@@ -3,14 +3,592 @@
         "areas": {},
         "hull": {},
         "systems": {
-            "1000": {},
+            "1000": {
+                "1330 Sea Trials (reports)": {
+                    "NB518": {
+                        "ID": [
+                            "3"
+                        ],
+                        "Start time": [
+                            "2023-05-05 08:43:05"
+                        ],
+                        "Completion time": [
+                            "2023-05-05 08:47:57"
+                        ],
+                        "Email": [
+                            "tero.tiuraniemi@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Tero Tiuraniemi"
+                        ],
+                        "valitse littera": [
+                            "1000"
+                        ],
+                        "1000 Ship general design": [
+                            "1330\tSea Trials (reports);"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "Systeemit toimi sen verran hyvin ett\u00e4 matka sujui hyvin. Tietokoneet toimivat ja s\u00e4hk\u00f6t yleisestikkin"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "Tarkastajien ja ruuan v\u00e4hyys"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "N\u00e4lk\u00e4, kova kunto ja hyv\u00e4t mehut"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Materiaalisaatavuus toimi, komponenttien toimitus oli v\u00e4ltt\u00e4v\u00e4\u00e4 esim. KT alueiden materiaalit"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "V\u00e4ltt\u00e4v\u00e4\u00e4"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "Hyvin onnistui:\n-\n-\nJa tietenkin\n-"
+                        ],
+                        "Yleiset kommentit?": [
+                            "Hyv\u00e4\u00e4 ruokahalua kaikille"
+                        ]
+                    }
+                }
+            },
             "2000": {},
             "3000": {},
             "4000": {},
             "5000": {},
-            "6000": {},
-            "7000": {},
-            "8000": {},
+            "6000": {
+                "6410 Fuel Oil Feed System for Main Engines": {
+                    "NB518": {
+                        "ID": [
+                            "1"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:20:53"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:28:49"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "6000"
+                        ],
+                        "6000 Propulsion": [
+                            "6410\tFuel Oil Feed System for Main Engines;6430\tHot Water Heater and EDG Fuel Oil System Diagram;6110\tPower Plant Engines;6710\tHot Water Heater System Diagram;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "systeemit toimivat suunnitellun mukaisesti.\n6710 per\u00e4n pannulle jouduttiin suurentamaan linjakokoa"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Projektissa oli mielest\u00e4ni realistisempi aikataulu kuin aikasemmissa"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Toimi melko hyvin"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Toimi"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "Aikataulu"
+                        ]
+                    }
+                },
+                "6430 Hot Water Heater and EDG Fuel Oil System Diagram": {
+                    "NB518": {
+                        "ID": [
+                            "1"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:20:53"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:28:49"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "6000"
+                        ],
+                        "6000 Propulsion": [
+                            "6410\tFuel Oil Feed System for Main Engines;6430\tHot Water Heater and EDG Fuel Oil System Diagram;6110\tPower Plant Engines;6710\tHot Water Heater System Diagram;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "systeemit toimivat suunnitellun mukaisesti.\n6710 per\u00e4n pannulle jouduttiin suurentamaan linjakokoa"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Projektissa oli mielest\u00e4ni realistisempi aikataulu kuin aikasemmissa"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Toimi melko hyvin"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Toimi"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "Aikataulu"
+                        ]
+                    }
+                },
+                "6110 Power Plant Engines": {
+                    "NB518": {
+                        "ID": [
+                            "1"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:20:53"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:28:49"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "6000"
+                        ],
+                        "6000 Propulsion": [
+                            "6410\tFuel Oil Feed System for Main Engines;6430\tHot Water Heater and EDG Fuel Oil System Diagram;6110\tPower Plant Engines;6710\tHot Water Heater System Diagram;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "systeemit toimivat suunnitellun mukaisesti.\n6710 per\u00e4n pannulle jouduttiin suurentamaan linjakokoa"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Projektissa oli mielest\u00e4ni realistisempi aikataulu kuin aikasemmissa"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Toimi melko hyvin"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Toimi"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "Aikataulu"
+                        ]
+                    }
+                },
+                "6710 Hot Water Heater System Diagram": {
+                    "NB518": {
+                        "ID": [
+                            "1"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:20:53"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:28:49"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "6000"
+                        ],
+                        "6000 Propulsion": [
+                            "6410\tFuel Oil Feed System for Main Engines;6430\tHot Water Heater and EDG Fuel Oil System Diagram;6110\tPower Plant Engines;6710\tHot Water Heater System Diagram;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "systeemit toimivat suunnitellun mukaisesti.\n6710 per\u00e4n pannulle jouduttiin suurentamaan linjakokoa"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Projektissa oli mielest\u00e4ni realistisempi aikataulu kuin aikasemmissa"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Toimi melko hyvin"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Toimi"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "Aikataulu"
+                        ]
+                    }
+                }
+            },
+            "7000": {
+                "7210 Fuel Oil Bunkering and Transfer": {
+                    "NB518": {
+                        "ID": [
+                            "2"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:28:51"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:29:47"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "7000"
+                        ],
+                        "7000 Machinery": [
+                            "7210\tFuel Oil Bunkering and Transfer;7210\tQuick Closing Valves system;7220\tFuel Oil Purification;7230\tLubrication Oil Bunkering, Separation and Transfer;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "toimi"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "oli"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "j\u00e4i"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "juu"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "kyll\u00e4"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "aikataulu"
+                        ],
+                        "Yleiset kommentit?": [
+                            "jep"
+                        ]
+                    }
+                },
+                "7210 Quick Closing Valves system": {
+                    "NB518": {
+                        "ID": [
+                            "2"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:28:51"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:29:47"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "7000"
+                        ],
+                        "7000 Machinery": [
+                            "7210\tFuel Oil Bunkering and Transfer;7210\tQuick Closing Valves system;7220\tFuel Oil Purification;7230\tLubrication Oil Bunkering, Separation and Transfer;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "toimi"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "oli"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "j\u00e4i"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "juu"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "kyll\u00e4"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "aikataulu"
+                        ],
+                        "Yleiset kommentit?": [
+                            "jep"
+                        ]
+                    }
+                },
+                "7220 Fuel Oil Purification": {
+                    "NB518": {
+                        "ID": [
+                            "2"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:28:51"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:29:47"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "7000"
+                        ],
+                        "7000 Machinery": [
+                            "7210\tFuel Oil Bunkering and Transfer;7210\tQuick Closing Valves system;7220\tFuel Oil Purification;7230\tLubrication Oil Bunkering, Separation and Transfer;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "toimi"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "oli"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "j\u00e4i"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "juu"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "kyll\u00e4"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "aikataulu"
+                        ],
+                        "Yleiset kommentit?": [
+                            "jep"
+                        ]
+                    }
+                },
+                "7230 Lubrication Oil Bunkering, Separation and Transfer": {
+                    "NB518": {
+                        "ID": [
+                            "2"
+                        ],
+                        "Start time": [
+                            "2023-04-28 09:28:51"
+                        ],
+                        "Completion time": [
+                            "2023-04-28 09:29:47"
+                        ],
+                        "Email": [
+                            "simo.mattila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Simo Mattila"
+                        ],
+                        "valitse littera": [
+                            "7000"
+                        ],
+                        "7000 Machinery": [
+                            "7210\tFuel Oil Bunkering and Transfer;7210\tQuick Closing Valves system;7220\tFuel Oil Purification;7230\tLubrication Oil Bunkering, Separation and Transfer;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "toimi"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "oli"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "j\u00e4i"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "juu"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "kyll\u00e4"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "aikataulu"
+                        ],
+                        "Yleiset kommentit?": [
+                            "jep"
+                        ]
+                    }
+                },
+                "7110 Starting Air": {
+                    "NB518": {
+                        "ID": [
+                            "5"
+                        ],
+                        "Start time": [
+                            "2023-05-05 08:53:01"
+                        ],
+                        "Completion time": [
+                            "2023-05-05 08:54:42"
+                        ],
+                        "Email": [
+                            "Johanna.Myllyla@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Johanna Myllyl\u00e4"
+                        ],
+                        "valitse littera": [
+                            "7000"
+                        ],
+                        "7000 Machinery": [
+                            "7110\tStarting Air;7120\tService Air;7130\tControl Air;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "T\u00e4ydellisesti"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "Aikataulu"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Hyv\u00e4t alihankkijat"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Ei miss\u00e4\u00e4n vaiheessa"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Pelkk\u00e4\u00e4 voittoa"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "V\u00e4hemm\u00e4n virheit\u00e4 kuvissa"
+                        ],
+                        "Yleiset kommentit?": [
+                            ":)"
+                        ]
+                    }
+                },
+                "7120 Service Air": {
+                    "NB518": {
+                        "ID": [
+                            "5"
+                        ],
+                        "Start time": [
+                            "2023-05-05 08:53:01"
+                        ],
+                        "Completion time": [
+                            "2023-05-05 08:54:42"
+                        ],
+                        "Email": [
+                            "Johanna.Myllyla@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Johanna Myllyl\u00e4"
+                        ],
+                        "valitse littera": [
+                            "7000"
+                        ],
+                        "7000 Machinery": [
+                            "7110\tStarting Air;7120\tService Air;7130\tControl Air;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "T\u00e4ydellisesti"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "Aikataulu"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Hyv\u00e4t alihankkijat"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Ei miss\u00e4\u00e4n vaiheessa"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Pelkk\u00e4\u00e4 voittoa"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "V\u00e4hemm\u00e4n virheit\u00e4 kuvissa"
+                        ],
+                        "Yleiset kommentit?": [
+                            ":)"
+                        ]
+                    }
+                },
+                "7130 Control Air": {
+                    "NB518": {
+                        "ID": [
+                            "5"
+                        ],
+                        "Start time": [
+                            "2023-05-05 08:53:01"
+                        ],
+                        "Completion time": [
+                            "2023-05-05 08:54:42"
+                        ],
+                        "Email": [
+                            "Johanna.Myllyla@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Johanna Myllyl\u00e4"
+                        ],
+                        "valitse littera": [
+                            "7000"
+                        ],
+                        "7000 Machinery": [
+                            "7110\tStarting Air;7120\tService Air;7130\tControl Air;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "T\u00e4ydellisesti"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "Aikataulu"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Hyv\u00e4t alihankkijat"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Ei miss\u00e4\u00e4n vaiheessa"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Pelkk\u00e4\u00e4 voittoa"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "V\u00e4hemm\u00e4n virheit\u00e4 kuvissa"
+                        ],
+                        "Yleiset kommentit?": [
+                            ":)"
+                        ]
+                    }
+                }
+            },
+            "8000": {
+                "8410 Life Saving Equipment": {
+                    "NB518": {
+                        "ID": [
+                            "4"
+                        ],
+                        "Start time": [
+                            "2023-05-05 08:45:08"
+                        ],
+                        "Completion time": [
+                            "2023-05-05 08:48:34"
+                        ],
+                        "Email": [
+                            "ahti.helminen@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Ahti Helminen"
+                        ],
+                        "valitse littera": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8410\tLife Saving Equipment;"
+                        ],
+                        "Toimiko systeemit suunnitellun mukaisesti?": [
+                            "Toimi"
+                        ],
+                        "Mitk\u00e4 olivat suurimmat ongelmat projektin aikana?": [
+                            "Ep\u00e4realistiset aikataulut ja niist\u00e4 johtuvat my\u00f6h\u00e4stymiset"
+                        ],
+                        "Mit\u00e4 positiivista projektista j\u00e4i mieleen?": [
+                            "Hyv\u00e4 ty\u00f6ilmapiiri"
+                        ],
+                        "Toimiko materiaalisaatavuus? komponenttien toimitus ajallaan?\u00a0": [
+                            "Toimi erinomaisesti"
+                        ],
+                        "Yhteisty\u00f6 muiden sidosryhmien kanssa? (telakan muut osastot, kokonaistoimittajat ja alihankkijat)": [
+                            "Tyydytt\u00e4v\u00e4sti"
+                        ],
+                        "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
+                            "Huonompi aikataulutus, paremmat ty\u00f6kaverit"
+                        ],
+                        "Yleiset kommentit?": [
+                            "Tyydytt\u00e4v\u00e4 kysely"
+                        ]
+                    }
+                }
+            },
             "9000": {}
         }
     }
