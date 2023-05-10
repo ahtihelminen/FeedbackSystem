@@ -75,8 +75,8 @@ class SystemsUpdate(Tools):
                             if question not in databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship]:
                                 databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question] = []
                             
-                            if answer not in databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question]:
-                                databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question].append(answer)
+                            #if answer not in databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question]:
+                            #   databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem][self.ship][question].append(answer)
 
                 json.dump(databaseToUpdate, databaseToWrite, indent=4)
             except Exception as e:
@@ -92,18 +92,18 @@ class SystemsUpdate(Tools):
         qadict = self.questionAnswerDict(self.listSystemsFeedbackFile[1], questions)
         print(self.removeQuestionsWithNoAnswer(qadict))
         print(self.extractSystems(qadict))
-        dbPath = self.relativeFilepathToAbsolute('../databases/feedbackDatabase.json')
+        dbPath = self.relativeFilepathToAbsolute('../databases/feedbackDatabaseTest.json')
         database = self.readJSON(dbPath)
         print(database['feedbacks']['systems'])
 
     def main(self):
         self.csvSystemsFeedbackFile = self.convertXlsxToCsv(self.excelSystemsFeedackFile)
         self.listSystemsFeedbackFile = self.convertCsvToList(self.csvSystemsFeedbackFile)
-        self.test()
+        #self.test()
         self.updateSystemsDatabase()
 
 if __name__ == '__main__':
     excelFilepath = "NB518_e2.xlsx"
     
-    systemsUpdate = SystemsUpdate(excelFilepath, '../databases/feedbackDatabase.json')
+    systemsUpdate = SystemsUpdate(excelFilepath, '../databases/feedbackDatabaseTest.json')
     systemsUpdate.main()
