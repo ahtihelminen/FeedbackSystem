@@ -56,6 +56,5 @@ class Tools:
                 Q_A_dictCopy.pop(question)
         return Q_A_dictCopy
 
-
     def removePersonalData(self, Q_A_dict):
         pass
