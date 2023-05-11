@@ -3,6 +3,9 @@ import csv
 import json
 import pandas as pd
 import os
+from docx import Document
+from docx.shared import Inches
+
 
 class Tools:
     def __init__(self) -> None:
@@ -32,11 +35,8 @@ class Tools:
     def replaceStrings(self, stringToChange, dictOfOldNewPairs):
         for key, value in dictOfOldNewPairs.items():
             stringToChange = stringToChange.replace(key, value)
-        return stringToChange
+        return stringToChange    
     
-    def readDB(self, feedbackDatabase):
-        pass
-
     def questionAnswerDict(self, answerRow, questions):
         answerDict = {}
         for question, answer in zip(questions, answerRow):
@@ -58,3 +58,33 @@ class Tools:
 
     def removePersonalData(self, Q_A_dict):
         pass
+
+    def createWordDoc(self, rows, cols):
+        
+        # create a new document
+        document = Document()
+
+        # add a table
+        table = document.add_table(rows=3, cols=3)
+
+        # populate the table
+        table.cell(0, 0).text = 'Name'
+        table.cell(0, 1).text = 'Age'
+        table.cell(0, 2).text = 'Gender'
+
+        table.cell(1, 0).text = 'Alice'
+        table.cell(1, 1).text = '25'
+        table.cell(1, 2).text = 'Female'
+
+        table.cell(2, 0).text = 'Bob'
+        table.cell(2, 1).text = '30'
+        table.cell(2, 2).text = 'Male'
+
+        # adjust the column widths
+        for row in table.rows:
+            for cell in row.cells:
+                cell.width = Inches(2.0)
+
+        # save the document
+        document.save('example.docx')
+

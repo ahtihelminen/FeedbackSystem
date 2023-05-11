@@ -1,5 +1,8 @@
 from tools import Tools
 import json
+from docx import Document
+from docx.shared import Inches
+
 
 
 class SystemsUpdate(Tools):
@@ -10,6 +13,7 @@ class SystemsUpdate(Tools):
         self.csvSystemsFeedbackFile = None
         self.listSystemsFeedbackFile = None
         self.ship = 'NB518'
+        self.questionToExclude = ['ID', 'Start time', 'Completion time', 'Email', 'Name', 'valitse littera', 'choose system code', '1000 Ship general design', '3000 Hull', '4000 Interior', '5000 HVAC', '6000 Propulsion', '7000 Machinery', '8000 Deck', '9000 Electric']
 
 
     def extractSystems(self, Q_A_dict):
@@ -35,7 +39,6 @@ class SystemsUpdate(Tools):
         stringToChange = stringToChange.replace('\t', ' ')
         stringToChange = stringToChange.replace('\n', ' ')
         return stringToChange
-
 
 
     def updateSystemsDatabase(self):
@@ -83,25 +86,71 @@ class SystemsUpdate(Tools):
         databaseToWrite.close()
 
 
+    def createFeedbackFiles(self):
+        with open(self.feedbackDatabase, 'r') as feedbackDatabaseFile:
+            
+            databaseToRead = json.load(feedbackDatabaseFile)
+            feedbackDatabaseFile.close()
 
+
+        for basicSystem in databaseToRead['feedbacks']['systems']:
+            
+            for specificSystem in databaseToRead['feedbacks']['systems'][basicSystem]:
+
+                    feedbackFileToWrite = Document()
+
+                    feedbackFilePathRel = f'../feedbacks/Systems/{basicSystem}/{specificSystem}.docx'
+                    feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)
+
+                    feedbackFileToWrite.add_heading(f'{specificSystem}', 0)
+                    
+                    for ship in databaseToRead['feedbacks']['systems'][basicSystem][specificSystem]:
+                        
+                        feedbackFileToWrite.add_heading(f'{ship}:', level=1)
+                        questionsLength = len(databaseToRead['feedbacks']['systems'][basicSystem][specificSystem][ship])
+                        print(questionsLength)
+                        questionAnswerTable = feedbackFileToWrite.add_table(rows=1, cols=2)
+                        questionAnswerTable.style = 'Table Grid'
+                        questionAnswerTable.autofit = False
+                        headingCells = questionAnswerTable.rows[0].cells
+                        headingCells[0].text = 'Question'
+                        headingCells[1].text = 'Answers'
+                        headingCells[0].width = Inches(1.5)
+                        headingCells[1].width = Inches(5.0)    
+                    
+                        for question in databaseToRead['feedbacks']['systems'][basicSystem][specificSystem][ship]:
+                            
+                            if question in self.questionToExclude:
+                                continue
+
+                            row_cells = questionAnswerTable.add_row().cells
+
+                            question = self.replaceStrings(question, {'\t': ' '})
+                            row_cells[0].text = question
+                            row_cells[0].width = Inches(1.5)
+
+                            for answer in databaseToRead['feedbacks']['systems'][basicSystem][specificSystem][ship][question]:
+                                
+                                answer = self.replaceStrings(answer, {'\t': ' '})
+                                row_cells[1].add_paragraph(answer, style='List Bullet')
+                                row_cells[1].width = Inches(5.0)
+
+                    feedbackFileToWrite.save(feedbackFilePathAbs)
+        
 
     def test(self):
-        questions = self.listSystemsFeedbackFile[0]
-        qadict = self.questionAnswerDict(self.listSystemsFeedbackFile[1], questions)
-        print(self.removeQuestionsWithNoAnswer(qadict))
-        print(self.extractSystems(qadict))
-        dbPath = self.relativeFilepathToAbsolute('../databases/feedbackDatabaseTest.json')
-        database = self.readJSON(dbPath)
-        print(database['feedbacks']['systems'])
+        self.createWordDoc()
+
 
     def main(self):
         self.csvSystemsFeedbackFile = self.convertXlsxToCsv(self.excelSystemsFeedackFile)
         self.listSystemsFeedbackFile = self.convertCsvToList(self.csvSystemsFeedbackFile)
         #self.test()
         self.updateSystemsDatabase()
+        self.createFeedbackFiles()
 
 if __name__ == '__main__':
-    excelFilepath = "NB518_e2.xlsx"
+    excelFilepath = "NB518_design.xlsx"
     
     systemsUpdate = SystemsUpdate(excelFilepath, '../databases/feedbackDatabaseTest.json')
     systemsUpdate.main()

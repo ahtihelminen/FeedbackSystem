@@ -3383,12 +3383,501 @@
                             "Hyv\u00e4\u00e4 ruokahalua kaikille"
                         ]
                     }
+                },
+                "1150 Design Criteria": {
+                    "NB518": {
+                        "ID": [
+                            "13"
+                        ],
+                        "Start time": [
+                            "2023-05-09 15:01:13"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 15:15:33"
+                        ],
+                        "Email": [
+                            "juri.huuhtanen@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juri Huuhtanen"
+                        ],
+                        "choose system code": [
+                            "1000"
+                        ],
+                        "1000 Ship general design": [
+                            "1150\tDesign Criteria;1110\tShip Description;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes. My systems are important for the other disciplines as guideline drawings for further detail design as well as important drawings for ship safety in general  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Rules requirements seems to have been reasonable from my point of view. However, I inherited most of the system responsibilities and therefore did not experience all the difficulties related to my systems in early design phases. \n\n"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "My systems did not include material as such. "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Some lessons learned to be mentioned (and corrective action done preferably already in concept phase):\n- Try not to position crew cabins (or any other cabins) adjacent to bow thruster spaces\n- Observation lounge and discotheque position below cabin spaces and bridge should be avoided or some special solutions should be applied to prevent noise and comfort issues. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Communication has been excellent 95% of time with all parties I have been involved with. "
+                        ]
+                    }
+                },
+                "1110 Ship Description": {
+                    "NB518": {
+                        "ID": [
+                            "13"
+                        ],
+                        "Start time": [
+                            "2023-05-09 15:01:13"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 15:15:33"
+                        ],
+                        "Email": [
+                            "juri.huuhtanen@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juri Huuhtanen"
+                        ],
+                        "choose system code": [
+                            "1000"
+                        ],
+                        "1000 Ship general design": [
+                            "1150\tDesign Criteria;1110\tShip Description;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes. My systems are important for the other disciplines as guideline drawings for further detail design as well as important drawings for ship safety in general  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Rules requirements seems to have been reasonable from my point of view. However, I inherited most of the system responsibilities and therefore did not experience all the difficulties related to my systems in early design phases. \n\n"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "My systems did not include material as such. "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Some lessons learned to be mentioned (and corrective action done preferably already in concept phase):\n- Try not to position crew cabins (or any other cabins) adjacent to bow thruster spaces\n- Observation lounge and discotheque position below cabin spaces and bridge should be avoided or some special solutions should be applied to prevent noise and comfort issues. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Communication has been excellent 95% of time with all parties I have been involved with. "
+                        ]
+                    }
                 }
             },
             "2000": {},
             "3000": {},
-            "4000": {},
-            "5000": {},
+            "4000": {
+                "4140 Cabin lay-out": {
+                    "NB518": {
+                        "ID": [
+                            "14"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:04:35"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 15:33:44"
+                        ],
+                        "Email": [
+                            "saara.suvela@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Saara Suvela"
+                        ],
+                        "choose system code": [
+                            "4000"
+                        ],
+                        "4000 Interrior": [
+                            "4140\tCabin lay-out;4150\tToilet Units;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "KT-teki Vassin, niin meni hyvin. 518 PES-arrangementit tehtiin todella kiireell\u00e4 muiden ty\u00f6teht\u00e4vien lomassa. PES-kuville ei ollut paljon varattua aikaa p\u00e4ivityksiin yms. seuraamiseen."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "USPH ja USCG yll\u00e4tti s\u00e4\u00e4nn\u00f6ill\u00e4\u00e4n, ei ollut telakalla aiemmista projekteista tuttu (laivaa 516 aiemmista). "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "KT:n kautta hankinnat, joten ei ollut 420-osastolla sin\u00e4ns\u00e4. Budjetti toki telakalta. KT:n +/- listat yll\u00e4tti v\u00e4lill\u00e4 ja osa vaikeasti ennakoitavissa."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "PES-kuvat tuntuivat j\u00e4\u00e4neen v\u00e4h\u00e4n unholaan. Niiden yll\u00e4pit\u00e4miseen ei ollut aikaa, ja toisaalta tuntui, ett\u00e4 ne eiv\u00e4t olleen en\u00e4\u00e4 3. laivassa ns. niin t\u00e4rke\u00e4ss\u00e4 roolissa (vaikka ehk\u00e4 olisi pit\u00e4nyt?)"
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Henkil\u00f6t tuttuja ja toimintatavat muodostuneet jo 516-517 laivoissa, niin kommunikointi oli sin\u00e4ns\u00e4 selke\u00e4\u00e4 (vrt. 516 alussa puuttui henkil\u00f6it\u00e4 py\u00f6d\u00e4n toiselta puolelta jne.) Oman osaston henkil\u00f6st\u00f6\u00e4 vaihtui paljon 518-laivan puolessa v\u00e4liss\u00e4, mik\u00e4 aiheutta haasteita kommunikaatiossa ja toimintatavoissa, ja sit\u00e4 kautta asioiden edistymisess\u00e4. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Laiva 518 meni edellisten sisaralusten vanavedess\u00e4 kaiken kaikkiaan. Moni asia jo ratkottu edellisiss\u00e4, vaikka toki uutta ihmetelt\u00e4v\u00e4\u00e4 oli aina. Esim. pakoteasiat jne. Toimittajat ei suostuneet yhteisty\u00f6h\u00f6n tai oli toimitustaukoja ja toimitushaasteita, jotka hidasti ja vaikeutti projektia."
+                        ]
+                    }
+                },
+                "4150 Toilet Units": {
+                    "NB518": {
+                        "ID": [
+                            "14"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:04:35"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 15:33:44"
+                        ],
+                        "Email": [
+                            "saara.suvela@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Saara Suvela"
+                        ],
+                        "choose system code": [
+                            "4000"
+                        ],
+                        "4000 Interrior": [
+                            "4140\tCabin lay-out;4150\tToilet Units;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "KT-teki Vassin, niin meni hyvin. 518 PES-arrangementit tehtiin todella kiireell\u00e4 muiden ty\u00f6teht\u00e4vien lomassa. PES-kuville ei ollut paljon varattua aikaa p\u00e4ivityksiin yms. seuraamiseen."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "USPH ja USCG yll\u00e4tti s\u00e4\u00e4nn\u00f6ill\u00e4\u00e4n, ei ollut telakalla aiemmista projekteista tuttu (laivaa 516 aiemmista). "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "KT:n kautta hankinnat, joten ei ollut 420-osastolla sin\u00e4ns\u00e4. Budjetti toki telakalta. KT:n +/- listat yll\u00e4tti v\u00e4lill\u00e4 ja osa vaikeasti ennakoitavissa."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "PES-kuvat tuntuivat j\u00e4\u00e4neen v\u00e4h\u00e4n unholaan. Niiden yll\u00e4pit\u00e4miseen ei ollut aikaa, ja toisaalta tuntui, ett\u00e4 ne eiv\u00e4t olleen en\u00e4\u00e4 3. laivassa ns. niin t\u00e4rke\u00e4ss\u00e4 roolissa (vaikka ehk\u00e4 olisi pit\u00e4nyt?)"
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Henkil\u00f6t tuttuja ja toimintatavat muodostuneet jo 516-517 laivoissa, niin kommunikointi oli sin\u00e4ns\u00e4 selke\u00e4\u00e4 (vrt. 516 alussa puuttui henkil\u00f6it\u00e4 py\u00f6d\u00e4n toiselta puolelta jne.) Oman osaston henkil\u00f6st\u00f6\u00e4 vaihtui paljon 518-laivan puolessa v\u00e4liss\u00e4, mik\u00e4 aiheutta haasteita kommunikaatiossa ja toimintatavoissa, ja sit\u00e4 kautta asioiden edistymisess\u00e4. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Laiva 518 meni edellisten sisaralusten vanavedess\u00e4 kaiken kaikkiaan. Moni asia jo ratkottu edellisiss\u00e4, vaikka toki uutta ihmetelt\u00e4v\u00e4\u00e4 oli aina. Esim. pakoteasiat jne. Toimittajat ei suostuneet yhteisty\u00f6h\u00f6n tai oli toimitustaukoja ja toimitushaasteita, jotka hidasti ja vaikeutti projektia."
+                        ]
+                    }
+                },
+                "4510 Insulation": {
+                    "NB518": {
+                        "ID": [
+                            "22"
+                        ],
+                        "Start time": [
+                            "2023-05-10 15:46:29"
+                        ],
+                        "Completion time": [
+                            "2023-05-10 16:00:02"
+                        ],
+                        "Email": [
+                            "joni.korpisola@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Joni Korpisola"
+                        ],
+                        "choose system code": [
+                            "4000"
+                        ],
+                        "4000 Interrior": [
+                            "4510\tInsulation;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "It's a bit unclear if A-15 fire insulation needs overlaps. In 518 the shipowner wanted to have overlaps around pipes (penetrating A-15 bulkhead)."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Budget was exceeded, material prices had risen a lot from 516 (from year 2021)"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "When insulation contractor suggest's changes in drawing (scheme of insulation), it's important to check the cost effect for shipyard."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Co-operation was good between contractor, production insulation foreman and design."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "No difference"
+                        ],
+                        "Other comments?": [
+                            "Pins for insulation were installed too late - was planned to be installed in block factory, but quite much was installed in blocks or onboard after painting. "
+                        ]
+                    }
+                }
+            },
+            "5000": {
+                "5710 Water Fire Extinguishing And Deck Washing System": {
+                    "NB518": {
+                        "ID": [
+                            "15"
+                        ],
+                        "Start time": [
+                            "2023-05-09 15:28:15"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 15:48:39"
+                        ],
+                        "Email": [
+                            "bertrand.frouin@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Bertrand Frouin"
+                        ],
+                        "choose system code": [
+                            "5000"
+                        ],
+                        "5000 HVAC": [
+                            "5710\tWater Fire Extinguishing And Deck Washing System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Generally yes. "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Rules are fulfilled, no issues with Class.\nUSPH requirements were not clear in first hand. Fulfilled in two steps so not efficiently. It would have been better to add the required features in the very beginning."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "final costs within budget, purchase of standard material item is not a very clear process."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "- USP requirements (system to incorporate fixed shore connections with back-flow preventers to fulfill USPH rules. The back flow preventer assembly must be complete with isolating valves and test valves to allow testing. This assembly requires space and proper drainage.\n- Location of fire hydrants needs to be clear. 1 added fire hydrant on deck 2 was built by Almaco on the wrong side of the bulkhead. It would have been necessary to specify a recess on the drawing or move the valve to the accessible side (though it is obvious that a fire hydrant hidden behind a cabin is useless."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Generally no issues. A little more communication during the detail design phase with TK would have prevented the situation described in point above."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Nothing new except for the extended length of the fire zones."
+                        ]
+                    }
+                },
+                "5730 CO2 Fire Extinguishing": {
+                    "NB518": {
+                        "ID": [
+                            "16",
+                            "20"
+                        ],
+                        "Start time": [
+                            "2023-05-09 15:48:42",
+                            "2023-05-10 08:34:19"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 16:11:17",
+                            "2023-05-10 09:21:22"
+                        ],
+                        "Email": [
+                            "bertrand.frouin@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Bertrand Frouin"
+                        ],
+                        "choose system code": [
+                            "5000"
+                        ],
+                        "5000 HVAC": [
+                            "5730\tCO2 Fire Extinguishing;",
+                            "5790\tFire Fighting Equipment;5730\tCO2 Fire Extinguishing;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Ideally, we should provide a pneumatic release for the EDG to cover the risks when the ship is being restarted. \nECR could use water mist with pre-action system as in the wheelhouse, rather than clean agent system.\nThe system is tailored and very sensitive to changes in the piping. We had to re-order nozzles to adjust the system to actual piping layout due to changes done in various phases of the construction (detail design and production). For this reason, system should only be used in a few areas of limited size.",
+                            "We should provide a little bit more portable extinguishers. in this type of ships."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "The effect of release on pressure in the protected space hasn't been addressed. Location of the rooms and lack of suitable solutions (with approvals) made it impossible. To be considered for future projects.\nOtherwise, rules are fulfilled. \nClass reviewed only supplier's documentation, not shipyard documentation issued for the system.",
+                            "Rules are fulfilled but when NB518 left, the signage was still missing in many places. For a proper readiness of the fire control plan items, the ship needs to be fully ready. \nThis was inspected by Class and approved but there will be more inspections, for example by USCG. Situation was better in NB517 where all these inspections were carried out before the ship left teh shipyard."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "System was well in budget despite the changes during design and the differences with reference project. Same supplier as in NB516/517. ",
+                            "Items were purchased on time. Delivery was a little late due to invoice payment issues. However, it was without consequences due to delays in the project.\nPurchases were within budget."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Changes in the system are first changes versus reference ships. Then, piping arrangement done in detail design in the protected spaces varied from supplier proposed arrangement. As built system varied also from the detail design. In this system, the changes need to be addressed and resulted in necessary adjustments.",
+                            "First revision of the drawing was late. Class used this document to comment on general safety related issues as this gives an overview of safety on board. \nFirst approved revision was revision C. When preparing updated revision due to change of flag. Many items inaccurate were found. Also changes in GA plan needed to be addressed. \nElaboration of this document is requiring more work than it looks because information is presented and categorized in a different way than on dedicated system drawings. Level of details required is not always available in other basic design documentation.\nDrawing released early can receive an approval in principle. However, the drawing needs a lot of work in late phase to bring some accuracy and show exact location of equipment and devices on board. \nThe difficult situation related to the fact that the ship left the shipyard unfinished was partly compensated by the good work and effort paid during the last 2 weeks to get the material installed on board. However, readiness for these items could have been achieved earlier in machinery spaces which were not late. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "System was handled by different persons along the project and this caused a lack of follow-up during some periods of time. Some issues could have been addressed earlier, but without major issues.",
+                            "The communication and cooperation has been really good in the last run to make the AS BUILT drawing ready and inspection succeed."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "System readiness for commissioning was better. ",
+                            "Situation was not as bad as in NB516 where the ship's departure was not so well anticipated. In NB517, due to the change in contract, the ship stayed longer at the shipyard than expected. This added time allowed to reach the necessary completion and readiness for a successful inspection of the fire control plan items. In NB518, the ship was not ready enough, but anticipation of the ship's departure, even though not ready helped to provide a better level than in NB516. Also the failures noticed in NB517 (missing material, wrong information...) were anticipated and corrected in NB518."
+                        ]
+                    }
+                },
+                "5740 Water Mist Fire Extinguishing System": {
+                    "NB518": {
+                        "ID": [
+                            "17"
+                        ],
+                        "Start time": [
+                            "2023-05-09 16:11:23"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 16:32:35"
+                        ],
+                        "Email": [
+                            "bertrand.frouin@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Bertrand Frouin"
+                        ],
+                        "choose system code": [
+                            "5000"
+                        ],
+                        "5000 HVAC": [
+                            "5740\tWater Mist Fire Extinguishing System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Generally yes. \n- For ease of commissioning, a set of test valves (isolating and test valves) should be added for the machinery section valves. \n- At the location of system main valves, floor drainage should be considered in future projects. \n- Also treatment of the water storage tanks should be considered in future projects by adding a treatment pump circulating water from the tanks.\n"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "No issues in this project."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "System final costs are above budget due to an erratic material consumption in all 3 vessels. The budget is mainly exceeded due to the need of creating a material buffer. Eventually, the material usage has been more realistic in NB518 versus 516/517."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Some changes came in relatively late stage from the ceiling design in public spaces (Savi)."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Communication with Savi public team has been difficult. Comments sent on their detail design seemed ineffective. \nMaterial handling has been a lot better in this project than in 516/517. I used some time reviewing the part list of each area and sent comments to persons in charge of detail design. The similarities with 516/517 helped also."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some efforts have been paid to make the system ready on time for commissioning (main line readiness, machinery spaces) with a good result. Despite changes in the yard commissioning team, we used less time from Marioff commissioning engineer (excluding the work on transfer voyage).\nIt is difficult to get a large system covering the whole ship ready. It is also important to keep track on the system as a whole, not only piping construction. The system finalization is also totally dependent on the electric connections. "
+                        ],
+                        "Other comments?": [
+                            "The system covered systems 5720 and 5740."
+                        ]
+                    }
+                },
+                "5750 Foam Fire Extinguishing System": {
+                    "NB518": {
+                        "ID": [
+                            "19"
+                        ],
+                        "Start time": [
+                            "2023-05-10 08:12:24"
+                        ],
+                        "Completion time": [
+                            "2023-05-10 08:34:14"
+                        ],
+                        "Email": [
+                            "bertrand.frouin@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Bertrand Frouin"
+                        ],
+                        "choose system code": [
+                            "5000"
+                        ],
+                        "5000 HVAC": [
+                            "5750\tFoam Fire Extinguishing System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "The system as built could have been a little better with a better follow-up (change of system responsible person)"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "There was no rules clearly defining the need and requirements for this system. But it was not a challenge. Proposed solution was already accepted in reference ships.\nApproval of the system by Class was done only on the base of supplier's documentation. Approval came late due to failure of the supplier to submit documentation to Class. Luckily no issue came up from approval. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "System was purchased from MINIMAX who has been supplying the Clean agent system in all 3 shios of Vega series. Tyco was the supplier for 516/517. The reason for change was only to get a better price for both systems."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Some comments related to the arrangement of the room where equipment is located came on a late stage from Owner. Some improvements were made versus previous ships in this regards. The comments were related to having a drip tray around the system equipment. This was not addressed in any other design and should have been addressed earlier. That kind of items (drip trays under equipment and their drainage arrangement) needs to be better coordinated in future projects."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Change of system responsible designer during the project made so that, there was a lack of communication and follow-up during the detail design phase. No critical issues finally but the nozzle arrangement, for example, could have been better if feedback had been given to the detail designer when asked."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "System was a little different due to change of supplier. Better arrangement around the system equipment was provided. \nOne drain valve which was located outside in NB516/517 was not provided in NB518 and was commented in a late stage by Owner. The saving was not significant and the valve was useful. However, it was not added when requested by Owner due to the timing of their request. "
+                        ]
+                    }
+                },
+                "5790 Fire Fighting Equipment": {
+                    "NB518": {
+                        "ID": [
+                            "20"
+                        ],
+                        "Start time": [
+                            "2023-05-10 08:34:19"
+                        ],
+                        "Completion time": [
+                            "2023-05-10 09:21:22"
+                        ],
+                        "Email": [
+                            "bertrand.frouin@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Bertrand Frouin"
+                        ],
+                        "choose system code": [
+                            "5000"
+                        ],
+                        "5000 HVAC": [
+                            "5790\tFire Fighting Equipment;",
+                            "5790\tFire Fighting Equipment;5730\tCO2 Fire Extinguishing;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "We should provide a little bit more portable extinguishers. in this type of ships."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Rules are fulfilled but when NB518 left, the signage was still missing in many places. For a proper readiness of the fire control plan items, the ship needs to be fully ready. \nThis was inspected by Class and approved but there will be more inspections, for example by USCG. Situation was better in NB517 where all these inspections were carried out before the ship left teh shipyard."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Items were purchased on time. Delivery was a little late due to invoice payment issues. However, it was without consequences due to delays in the project.\nPurchases were within budget."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "First revision of the drawing was late. Class used this document to comment on general safety related issues as this gives an overview of safety on board. \nFirst approved revision was revision C. When preparing updated revision due to change of flag. Many items inaccurate were found. Also changes in GA plan needed to be addressed. \nElaboration of this document is requiring more work than it looks because information is presented and categorized in a different way than on dedicated system drawings. Level of details required is not always available in other basic design documentation.\nDrawing released early can receive an approval in principle. However, the drawing needs a lot of work in late phase to bring some accuracy and show exact location of equipment and devices on board. \nThe difficult situation related to the fact that the ship left the shipyard unfinished was partly compensated by the good work and effort paid during the last 2 weeks to get the material installed on board. However, readiness for these items could have been achieved earlier in machinery spaces which were not late. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "The communication and cooperation has been really good in the last run to make the AS BUILT drawing ready and inspection succeed."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Situation was not as bad as in NB516 where the ship's departure was not so well anticipated. In NB517, due to the change in contract, the ship stayed longer at the shipyard than expected. This added time allowed to reach the necessary completion and readiness for a successful inspection of the fire control plan items. In NB518, the ship was not ready enough, but anticipation of the ship's departure, even though not ready helped to provide a better level than in NB516. Also the failures noticed in NB517 (missing material, wrong information...) were anticipated and corrected in NB518."
+                        ]
+                    }
+                },
+                "5610 Air Conditioning in Interior Spaces": {
+                    "NB518": {
+                        "ID": [
+                            "21"
+                        ],
+                        "Start time": [
+                            "2023-05-10 10:41:16"
+                        ],
+                        "Completion time": [
+                            "2023-05-10 11:13:40"
+                        ],
+                        "Email": [
+                            "outi.lehtimaki@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Outi Lehtimaki"
+                        ],
+                        "choose system code": [
+                            "5000"
+                        ],
+                        "5000 HVAC": [
+                            "5610\tAir Conditioning in Interior Spaces;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Because \"cousin ship\" all design material was not added into Kronodoc under NB518 because it was assumed that same persons continue from NB516-517 and they are already familiar with material"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Air balancing report for future USPH inspections is missing from Kronodoc."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "\"Real\" delivery control still missing. Who is in charge of TK extra prices (mainly work); approving, doing TMR and who will do final PO. "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Heat load calculation \"as built\" version not useful; updated info in AC plans and balancing"
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Change of system responsible person was not informed to all parties and questions were presented to \"old one\". Valid contact info was not available in Kronodoc. TK organisation was total mess, too many persons involved and roles unknown."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Picking without part list was reduced compared to NB516-517 which was good thing."
+                        ],
+                        "Other comments?": [
+                            "TRI / final inspection of AC rooms might be useful; has been earlier, but it was agreed during NB516 that not needed. How we confirm that all background installation done and inspected and also AC commissiong/adjustment is done before ceiling is closed ?"
+                        ]
+                    }
+                }
+            },
             "6000": {
                 "6410 Fuel Oil Feed System for Main Engines": {
                     "NB518": {
@@ -3547,6 +4036,49 @@
                         ],
                         "Jos verrataan laivoihin 516-517. Mik\u00e4 onnistui paremmin ja mik\u00e4 huonommin?": [
                             "Aikataulu"
+                        ]
+                    }
+                },
+                "6310 Propeller and  shaftline": {
+                    "NB518": {
+                        "ID": [
+                            "4"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:50:53"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 10:59:48"
+                        ],
+                        "Email": [
+                            "isko.kuha@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Isko Kuha"
+                        ],
+                        "choose system code": [
+                            "6000"
+                        ],
+                        "6000 Propulsion": [
+                            "6310\tPropeller and  shaftline;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Satisfied to 75%. We were able to improve from the \"cousin ships\" NB:s 516 and 517. But not all space-related issues in the aft bottom were available to change. We learned a lot."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "The co-operation with Class LR was top professional and very well remembered."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Our small purchases for mounting parts was made difficult by payment reputation of ours. Also the delivery lead times of many materials and parts was long."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "For some reason, my own personal contact with Owners' responsible inspectors was ultimately close to zero. This is a change when compared to past ship series. Perhaps the Covid pandemy had a part in the circumstance. Many \"ping-pong\" correspondance could have been dealt with up front in a more old-fashioned way. This was frustrating in many instances and communication was not always to the exact problem point."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "See point 6 for Owners. Internal and contractor communication was generally excellent. However, the main system integrating supplier was obviously overworked in their projecting contracts and we could not bring basic design communication to a great level at all."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We certainly learned a lot. Especially in working together with Hull Design vs. Machinery Design."
                         ]
                     }
                 }
@@ -3921,9 +4453,1725 @@
                             "Tyydytt\u00e4v\u00e4 kysely"
                         ]
                     }
+                },
+                "8210 Steering Gear Piping Diagram": {
+                    "NB518": {
+                        "ID": [
+                            "5"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:59:54"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 11:02:26"
+                        ],
+                        "Email": [
+                            "isko.kuha@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Isko Kuha"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8210\tSteering Gear Piping Diagram;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "90% happy. However, the main system integrating supplier was obviously overworked in their projecting contracts. "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "The co-operation with Class LR was top professional and very well remembered."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Our small purchases for mounting parts was made difficult by payment reputation of ours. Also the delivery lead times of many materials and parts was long."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Generally no complaints."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Was good."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "This system had been succesfully implemented already in NB:s 516 and 517."
+                        ]
+                    }
+                },
+                "8240 Tunnel Thruster Piping Diagram": {
+                    "NB518": {
+                        "ID": [
+                            "6"
+                        ],
+                        "Start time": [
+                            "2023-05-09 11:02:34"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 11:03:44"
+                        ],
+                        "Email": [
+                            "isko.kuha@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Isko Kuha"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8240\tTunnel Thruster Piping Diagram;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes, 100% happy."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "The co-operation with Class LR was top professional and very well remembered."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Our small purchases for mounting parts was made difficult by payment reputation of ours. Also the delivery lead times of many materials and parts was long."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Was OK."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Was good indeed."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We were okay already in NB:s 516, 517."
+                        ]
+                    }
+                },
+                "8310 Fin Stabiliser Piping Diagram": {
+                    "NB518": {
+                        "ID": [
+                            "7"
+                        ],
+                        "Start time": [
+                            "2023-05-09 11:03:50"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 11:05:57"
+                        ],
+                        "Email": [
+                            "isko.kuha@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Isko Kuha"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8310\tFin Stabiliser Piping Diagram;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "100% happy. The system supplier (Mitsubishi Heavy Industries) performed extremely well in the project."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "The co-operation with Class LR was top professional and very well remembered."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Our small purchases for mounting parts was made difficult by payment reputation of ours. Also the delivery lead times of many materials and parts was long."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Was OK."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Generally very good co-operation and special thanks to production foremen and -women."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We improved the system implementation significantly when compared to NB:s 516 and 517."
+                        ]
+                    }
+                },
+                "8521 ports in shell plating": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8522 Access and service  hatches with handrails": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8580 Outside Hull Outfitting and hull marking": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8910 Tarpaulins and Covers": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8510 Water Tight Doors": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8710 Deck Stores and Workshops": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8545 Windscreens, awnings and balcony dividers": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8542 Exterior Railings": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8541 Exterior Stairs and Ladders": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8000 Deck Areas": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
+                },
+                "8110 Anchoring and Mooring": {
+                    "NB518": {
+                        "ID": [
+                            "12"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:36:17"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 14:18:02"
+                        ],
+                        "Email": [
+                            "Rando.Rosenthal@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Rando Rosenthal"
+                        ],
+                        "choose system code": [
+                            "8000"
+                        ],
+                        "8000 Deck": [
+                            "8521\tports in shell plating;8522\tAccess and service  hatches with handrails;8580\tOutside Hull Outfitting and hull marking;8910\tTarpaulins and Covers;8510\tWater Tight Doors;8710\tDeck Stores and Workshops;8545\tWindscreens, awnings and balcony dividers;8542\tExterior Railings;8541\tExterior Stairs and Ladders;8000\tDeck Areas;8110\tAnchoring and Mooring;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Way too many systems but fortunately most systems same as in previous vessels. It was more like coordinating in case of changes/modifications.  Very satisfied to technical output except with watertight doors. Especially integration with SWT and fire doors.  "
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "More-less straight forward. Only Panama arrangement not fulfilled due to aft ship design. Tendering arrangement required more effort to understand which rules and requirement need to be filled. Otherwise no issues. "
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "I consider material handling quite smooth. Mostly because it was already third vessel. Some late purchases had to made due to lost/broken equipment but this was managed in time. \n\nDelayed purchase of tender boat and davits also delayed design, delivery and installation (including late payments). "
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Block manufacturing timetable and detail design areas could have been more in line to give extra time for design. \n\nNew equipment or supplier changing delayed detail design in some area (life - and tender boats). \n\nSome comments needed more clarification but mostly only minor changes in NB-518. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "In my opinion communication was smooth between different parties. In late stage it was more hectic in some cases. "
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "We got us well employed by changing the hull structure, suppliers and sub-contractors in third vessel. "
+                        ]
+                    }
                 }
             },
-            "9000": {}
+            "9000": {
+                "9311 Integrated Automation System (IAS)": {
+                    "NB518": {
+                        "ID": [
+                            "8",
+                            "18"
+                        ],
+                        "Start time": [
+                            "2023-05-09 11:06:03",
+                            "2023-05-09 18:04:51"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 11:08:51",
+                            "2023-05-09 18:11:21"
+                        ],
+                        "Email": [
+                            "isko.kuha@helsinkishipyard.fi",
+                            "Mikael.Forsman@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Isko Kuha",
+                            "Mikael Forsman"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9311\tIntegrated Automation System (IAS);",
+                            "9300\tMonitoring, Control and Automation;9311\tIntegrated Automation System (IAS);9318\tLight alarms in Engine Spaces;9321\tPower Management System (PMS);9333\tEmergency Telegraph;9342\tLoading Computer;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "I helped with IAS interfaces and it was nice.",
+                            "Yes"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "The co-operation with Class LR was top professional and very well remembered.",
+                            "No problems"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Our small purchases for mounting parts was made difficult by payment reputation of ours. Also the delivery lead times of many materials and parts was long.",
+                            "Budget was good, yard was refunded."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Was good.",
+                            "First time in 20 years automation design made all drawings, not outsourced. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Pleasant and efficient co-operation in spite of the very heavy workload of the good electrical design colleagues.",
+                            "Machinery design have skilled designers."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Was OK.",
+                            "Jira and ERM  doesn't work as I expected. ACAD without electrical symbols."
+                        ],
+                        "Other comments?": [
+                            "More teamwork before purchase of different sister systems. "
+                        ]
+                    }
+                },
+                "9200 Lighting": {
+                    "NB518": {
+                        "ID": [
+                            "10"
+                        ],
+                        "Start time": [
+                            "2023-05-09 10:29:28"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 12:53:44"
+                        ],
+                        "Email": [
+                            "jyrki.nurmi@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Jyrki Nurmi"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9200\tLighting;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "I am satisfied with the final output despite the restrictions and drawbacks caused by international sanctions."
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Rule requirements did not cause problems. No issues with Class nor with Flag Rules"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "We had 2 issues that had an impact on material availability and affected the initial budget.\n#1 - Rising costs due to the global shortage of semiconductors had a negative impact during an ongoing project. Something not easy to foresee.\n#2 - International sanctions struck badly the normal, well-known material supplier chain. Time-consuming efforts had to be performed to fix the issues."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Wrong decisions were made at the beginning of the project. A reliable TK-contractor that had built the Passenger Public areas in 2 previous vessels was put aside and an incompetent contractor was chosen to work on the last vessel of the series. This was the worst action I have ever seen in my 30+ years working at the Yard. My first reaction was that the Yard was digging its own grave. First dismay came when we learned that the electrical design work was omitted from the contract. That was a huge red flag. The contractor had no responsible designer for the task. The Yard did not have the capacity to handle the work with its own personnel but had to hire a company from Croatia - on behalf of the TK-contractor, and for the TK-contractor. It was emphasized that this Croatian company is working for the TK-contractor, and they had to coordinate the design work with them (not the Yard). This never happened. The Yard had to teach the Croatians nearly everything. After the initial design work was done, the Croatians retired from their responsibilities, as it was stated in their contract. There was no-one responsible for the follow-ups and the changes that always come up during the building phase. I hope the costs of the extra tasks were estimated/calculated by the project's lead decision makers.\nLessons to be learned:\n#1 - The first and paramount lesson is that a TK-contractor MUST have their own electrical designer(s) who is(are) responsible for the electrical design of the TK areas during the whole project - from the start to the end. \n#2 - The second lesson is that it is never a good idea to change a TK-contractor during a building series of vessels. There will doubtfully be any savings."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Communication depended a lot on your own activity. In my opinion communication has improved between team workers, production, and suppliers. This last TK-contractor was the worst case during my career at the Yard's design dpt. , although they had individual on-site supervisors among their personnel that understood the issues and could commendably tackle them. A light amid the darkness."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "The 2 first vessels were difficult, but the last one feels like a total mess because of the new TK. As stated earlier, it is a very risky idea to change a competent contractor in the middle of a building series.\nThe building areas under the responsibility of the Yard have gone with no issues and can be regarded as successful."
+                        ],
+                        "Other comments?": [
+                            "I sincerely hope that the above-mentioned mistakes will never occur again. This Shipyard has built many vessels with success, and I believe that the decades long trend will continue if lessons are learned. The cheapest is never the best nor will it turn out to be cheap in the end."
+                        ]
+                    }
+                },
+                "9121 Transformers": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9125 UPS Units": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9132 Main Switchboards (MS11_MS12_MS21_MS22)": {
+                    "NB518": {
+                        "ID": [
+                            "11",
+                            "23"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22",
+                            "2023-05-11 13:10:14"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04",
+                            "2023-05-11 13:22:13"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi",
+                            "Leena.Yli-Nikkila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl",
+                            "Leena Yli-Nikkil\u00e4"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;",
+                            "9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9136\tShore connection (SC1);9114\tEmergency Diesel Generator;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly",
+                            "Kymys ei t\u00e4ysin ymm\u00e4rret\u00e4v\u00e4, tarkoitetaanko t\u00e4ll\u00e4 sit\u00e4 miten s\u00e4hk\u00f6 on onnistunut?"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention",
+                            "Omien j\u00e4rjestelmien osalta (s\u00e4hk\u00f6njakelu) vaikuttaa moneen j\u00e4rjestelm\u00e4\u00e4n s\u00e4\u00e4nn\u00f6t esim. tarpeet tuplasy\u00f6t\u00f6ist\u00e4, sy\u00f6t\u00f6nvaihdot jne.\n\nYleist\u00e4 kommenttia:\ns\u00e4\u00e4nn\u00f6ist\u00e4 kaivataan yksityiskohtaista opastusta, esim. koulutusta. Voisiko j\u00e4rjest\u00e4\u00e4 esim. sis\u00e4ist\u00e4 kurssitusta jotta s\u00e4hk\u00f6ll\u00e4 osataan ottaa huomiota s\u00e4\u00e4nt\u00f6kohdat esim. veljes/sisarj\u00e4rjest\u00f6jen kanssa yhdess\u00e4."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material",
+                            "tarjouspyynn\u00f6t ja tarjouskierros monimutkainen ja aikaa viev\u00e4 prosessi. Kaikkiaan kun saadaan 3 tarjousta sen j\u00e4lkeen alkaa uusi tinkauskierros jossa taas hintaa lasketaan. Kun on p\u00e4\u00e4sty loppusuoralle asiat on jo muuttuneet. (Esim. tullut uusia s\u00e4hk\u00f6nkuluttajia tai uutta tietoa). \n\nLogistiikka ja tuotteiden oikea aikataulutus on haasteellinen, aikataulut eiv\u00e4t p\u00e4de tai sitten tavarat ovat llian aikaisin telakalla. Kustannuksia ja haasteita s\u00e4ilytt\u00e4miseen\n\nBudjetin seuranta, vastuut kenelle kuuluu budjettiseuranta?\n\nTavaroiden tulemisen viiv\u00e4styminen joko toimittajasta tai telakasta johtuen. Nk. toimitusvalvonta puuttuu t\u00e4ll\u00e4 hetkell\u00e4 kokonaan. Osto ei seuraa tulevatko tavarat silloin kuin pit\u00e4isi tulla.\nKuormittaa suunnittelua runsaasti jos asiat ei mene kuten pit\u00e4isi."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok.",
+                            "PES s\u00e4hk\u00f6n osalta kannattaisi tehd\u00e4 telakan omalla v\u00e4ell\u00e4. 518 tehtiin Kroatiassa jossa oli paljon virheit\u00e4 ja niit\u00e4 jouduttiin sitten VAS-suunnittelussa korjaamaan ja paikkaamaan. Pit\u00e4\u00e4 selvitt\u00e4\u00e4 alihankkijan kyky toimittaa taatusti laadukasta ty\u00f6t\u00e4 jota ei telakka sitten joudu parsimaan kasaan uudestaan.\n\nAina halvalla suunnittelutoimistolla esim. KT ei ole ollenkaan omaa s\u00e4hk\u00f6suunnittelua vaan he tilaavat sen jostain ulkopuolelta. T\u00e4ss\u00e4 on monta liikkuvaa osaa jotka pit\u00e4\u00e4 korjata ja rikkin\u00e4inen puhelin -ongelma.\n\nTarvitaan parempaa koordinointia ja aikaa telakalla valvoa KT ja muita alihankkijoita."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging...",
+                            "Suunnittelua tehd\u00e4\u00e4n samaan aikaan monella osastolla, eli siin\u00e4 vaiheessa kun telakan pit\u00e4\u00e4 jo l\u00f6yd\u00e4 lukkoon s\u00e4hk\u00f6n jakelun keskukset ei viel\u00e4 ole tarpeeksi l\u00e4ht\u00f6tietoja mit\u00e4 ollaan ostamalla muilla osastoilla.\n\nMuutokset vaatisivat tarkempaa muutoshallintaa ja kertomista eri osastoiden v\u00e4lill\u00e4. Eli tarvitsee olla vaikka ty\u00f6ryhm\u00e4t, jossa olisi my\u00f6s aina s\u00e4hk\u00f6 mukana. Harva laite toimii ilman s\u00e4hk\u00f6\u00e4 ja sit\u00e4 ei tarpeeksi ole otettu huomioon suunnittelussa.\n\n"
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way.",
+                            "protolaivat olivat vaikeita tehd\u00e4, mutta kyll\u00e4 niist\u00e4 opittiin. Osaa asioista ei saatu en\u00e4\u00e4 muutettua joten mentiin samalla tavalla kuin edellisiss\u00e4kin"
+                        ]
+                    }
+                },
+                "9133 Emergency Switchboards (ES1_ES2_ES3)": {
+                    "NB518": {
+                        "ID": [
+                            "11",
+                            "23"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22",
+                            "2023-05-11 13:10:14"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04",
+                            "2023-05-11 13:22:13"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi",
+                            "Leena.Yli-Nikkila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl",
+                            "Leena Yli-Nikkil\u00e4"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;",
+                            "9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9136\tShore connection (SC1);9114\tEmergency Diesel Generator;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly",
+                            "Kymys ei t\u00e4ysin ymm\u00e4rret\u00e4v\u00e4, tarkoitetaanko t\u00e4ll\u00e4 sit\u00e4 miten s\u00e4hk\u00f6 on onnistunut?"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention",
+                            "Omien j\u00e4rjestelmien osalta (s\u00e4hk\u00f6njakelu) vaikuttaa moneen j\u00e4rjestelm\u00e4\u00e4n s\u00e4\u00e4nn\u00f6t esim. tarpeet tuplasy\u00f6t\u00f6ist\u00e4, sy\u00f6t\u00f6nvaihdot jne.\n\nYleist\u00e4 kommenttia:\ns\u00e4\u00e4nn\u00f6ist\u00e4 kaivataan yksityiskohtaista opastusta, esim. koulutusta. Voisiko j\u00e4rjest\u00e4\u00e4 esim. sis\u00e4ist\u00e4 kurssitusta jotta s\u00e4hk\u00f6ll\u00e4 osataan ottaa huomiota s\u00e4\u00e4nt\u00f6kohdat esim. veljes/sisarj\u00e4rjest\u00f6jen kanssa yhdess\u00e4."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material",
+                            "tarjouspyynn\u00f6t ja tarjouskierros monimutkainen ja aikaa viev\u00e4 prosessi. Kaikkiaan kun saadaan 3 tarjousta sen j\u00e4lkeen alkaa uusi tinkauskierros jossa taas hintaa lasketaan. Kun on p\u00e4\u00e4sty loppusuoralle asiat on jo muuttuneet. (Esim. tullut uusia s\u00e4hk\u00f6nkuluttajia tai uutta tietoa). \n\nLogistiikka ja tuotteiden oikea aikataulutus on haasteellinen, aikataulut eiv\u00e4t p\u00e4de tai sitten tavarat ovat llian aikaisin telakalla. Kustannuksia ja haasteita s\u00e4ilytt\u00e4miseen\n\nBudjetin seuranta, vastuut kenelle kuuluu budjettiseuranta?\n\nTavaroiden tulemisen viiv\u00e4styminen joko toimittajasta tai telakasta johtuen. Nk. toimitusvalvonta puuttuu t\u00e4ll\u00e4 hetkell\u00e4 kokonaan. Osto ei seuraa tulevatko tavarat silloin kuin pit\u00e4isi tulla.\nKuormittaa suunnittelua runsaasti jos asiat ei mene kuten pit\u00e4isi."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok.",
+                            "PES s\u00e4hk\u00f6n osalta kannattaisi tehd\u00e4 telakan omalla v\u00e4ell\u00e4. 518 tehtiin Kroatiassa jossa oli paljon virheit\u00e4 ja niit\u00e4 jouduttiin sitten VAS-suunnittelussa korjaamaan ja paikkaamaan. Pit\u00e4\u00e4 selvitt\u00e4\u00e4 alihankkijan kyky toimittaa taatusti laadukasta ty\u00f6t\u00e4 jota ei telakka sitten joudu parsimaan kasaan uudestaan.\n\nAina halvalla suunnittelutoimistolla esim. KT ei ole ollenkaan omaa s\u00e4hk\u00f6suunnittelua vaan he tilaavat sen jostain ulkopuolelta. T\u00e4ss\u00e4 on monta liikkuvaa osaa jotka pit\u00e4\u00e4 korjata ja rikkin\u00e4inen puhelin -ongelma.\n\nTarvitaan parempaa koordinointia ja aikaa telakalla valvoa KT ja muita alihankkijoita."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging...",
+                            "Suunnittelua tehd\u00e4\u00e4n samaan aikaan monella osastolla, eli siin\u00e4 vaiheessa kun telakan pit\u00e4\u00e4 jo l\u00f6yd\u00e4 lukkoon s\u00e4hk\u00f6n jakelun keskukset ei viel\u00e4 ole tarpeeksi l\u00e4ht\u00f6tietoja mit\u00e4 ollaan ostamalla muilla osastoilla.\n\nMuutokset vaatisivat tarkempaa muutoshallintaa ja kertomista eri osastoiden v\u00e4lill\u00e4. Eli tarvitsee olla vaikka ty\u00f6ryhm\u00e4t, jossa olisi my\u00f6s aina s\u00e4hk\u00f6 mukana. Harva laite toimii ilman s\u00e4hk\u00f6\u00e4 ja sit\u00e4 ei tarpeeksi ole otettu huomioon suunnittelussa.\n\n"
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way.",
+                            "protolaivat olivat vaikeita tehd\u00e4, mutta kyll\u00e4 niist\u00e4 opittiin. Osaa asioista ei saatu en\u00e4\u00e4 muutettua joten mentiin samalla tavalla kuin edellisiss\u00e4kin"
+                        ]
+                    }
+                },
+                "9134 Distribution Boards (PB_LB_HB_OB_etc.)": {
+                    "NB518": {
+                        "ID": [
+                            "11",
+                            "23"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22",
+                            "2023-05-11 13:10:14"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04",
+                            "2023-05-11 13:22:13"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi",
+                            "Leena.Yli-Nikkila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl",
+                            "Leena Yli-Nikkil\u00e4"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;",
+                            "9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9136\tShore connection (SC1);9114\tEmergency Diesel Generator;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly",
+                            "Kymys ei t\u00e4ysin ymm\u00e4rret\u00e4v\u00e4, tarkoitetaanko t\u00e4ll\u00e4 sit\u00e4 miten s\u00e4hk\u00f6 on onnistunut?"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention",
+                            "Omien j\u00e4rjestelmien osalta (s\u00e4hk\u00f6njakelu) vaikuttaa moneen j\u00e4rjestelm\u00e4\u00e4n s\u00e4\u00e4nn\u00f6t esim. tarpeet tuplasy\u00f6t\u00f6ist\u00e4, sy\u00f6t\u00f6nvaihdot jne.\n\nYleist\u00e4 kommenttia:\ns\u00e4\u00e4nn\u00f6ist\u00e4 kaivataan yksityiskohtaista opastusta, esim. koulutusta. Voisiko j\u00e4rjest\u00e4\u00e4 esim. sis\u00e4ist\u00e4 kurssitusta jotta s\u00e4hk\u00f6ll\u00e4 osataan ottaa huomiota s\u00e4\u00e4nt\u00f6kohdat esim. veljes/sisarj\u00e4rjest\u00f6jen kanssa yhdess\u00e4."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material",
+                            "tarjouspyynn\u00f6t ja tarjouskierros monimutkainen ja aikaa viev\u00e4 prosessi. Kaikkiaan kun saadaan 3 tarjousta sen j\u00e4lkeen alkaa uusi tinkauskierros jossa taas hintaa lasketaan. Kun on p\u00e4\u00e4sty loppusuoralle asiat on jo muuttuneet. (Esim. tullut uusia s\u00e4hk\u00f6nkuluttajia tai uutta tietoa). \n\nLogistiikka ja tuotteiden oikea aikataulutus on haasteellinen, aikataulut eiv\u00e4t p\u00e4de tai sitten tavarat ovat llian aikaisin telakalla. Kustannuksia ja haasteita s\u00e4ilytt\u00e4miseen\n\nBudjetin seuranta, vastuut kenelle kuuluu budjettiseuranta?\n\nTavaroiden tulemisen viiv\u00e4styminen joko toimittajasta tai telakasta johtuen. Nk. toimitusvalvonta puuttuu t\u00e4ll\u00e4 hetkell\u00e4 kokonaan. Osto ei seuraa tulevatko tavarat silloin kuin pit\u00e4isi tulla.\nKuormittaa suunnittelua runsaasti jos asiat ei mene kuten pit\u00e4isi."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok.",
+                            "PES s\u00e4hk\u00f6n osalta kannattaisi tehd\u00e4 telakan omalla v\u00e4ell\u00e4. 518 tehtiin Kroatiassa jossa oli paljon virheit\u00e4 ja niit\u00e4 jouduttiin sitten VAS-suunnittelussa korjaamaan ja paikkaamaan. Pit\u00e4\u00e4 selvitt\u00e4\u00e4 alihankkijan kyky toimittaa taatusti laadukasta ty\u00f6t\u00e4 jota ei telakka sitten joudu parsimaan kasaan uudestaan.\n\nAina halvalla suunnittelutoimistolla esim. KT ei ole ollenkaan omaa s\u00e4hk\u00f6suunnittelua vaan he tilaavat sen jostain ulkopuolelta. T\u00e4ss\u00e4 on monta liikkuvaa osaa jotka pit\u00e4\u00e4 korjata ja rikkin\u00e4inen puhelin -ongelma.\n\nTarvitaan parempaa koordinointia ja aikaa telakalla valvoa KT ja muita alihankkijoita."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging...",
+                            "Suunnittelua tehd\u00e4\u00e4n samaan aikaan monella osastolla, eli siin\u00e4 vaiheessa kun telakan pit\u00e4\u00e4 jo l\u00f6yd\u00e4 lukkoon s\u00e4hk\u00f6n jakelun keskukset ei viel\u00e4 ole tarpeeksi l\u00e4ht\u00f6tietoja mit\u00e4 ollaan ostamalla muilla osastoilla.\n\nMuutokset vaatisivat tarkempaa muutoshallintaa ja kertomista eri osastoiden v\u00e4lill\u00e4. Eli tarvitsee olla vaikka ty\u00f6ryhm\u00e4t, jossa olisi my\u00f6s aina s\u00e4hk\u00f6 mukana. Harva laite toimii ilman s\u00e4hk\u00f6\u00e4 ja sit\u00e4 ei tarpeeksi ole otettu huomioon suunnittelussa.\n\n"
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way.",
+                            "protolaivat olivat vaikeita tehd\u00e4, mutta kyll\u00e4 niist\u00e4 opittiin. Osaa asioista ei saatu en\u00e4\u00e4 muutettua joten mentiin samalla tavalla kuin edellisiss\u00e4kin"
+                        ]
+                    }
+                },
+                "9135 Motor Starter Units and Separate Starters": {
+                    "NB518": {
+                        "ID": [
+                            "11",
+                            "23"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22",
+                            "2023-05-11 13:10:14"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04",
+                            "2023-05-11 13:22:13"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi",
+                            "Leena.Yli-Nikkila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl",
+                            "Leena Yli-Nikkil\u00e4"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;",
+                            "9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9136\tShore connection (SC1);9114\tEmergency Diesel Generator;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly",
+                            "Kymys ei t\u00e4ysin ymm\u00e4rret\u00e4v\u00e4, tarkoitetaanko t\u00e4ll\u00e4 sit\u00e4 miten s\u00e4hk\u00f6 on onnistunut?"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention",
+                            "Omien j\u00e4rjestelmien osalta (s\u00e4hk\u00f6njakelu) vaikuttaa moneen j\u00e4rjestelm\u00e4\u00e4n s\u00e4\u00e4nn\u00f6t esim. tarpeet tuplasy\u00f6t\u00f6ist\u00e4, sy\u00f6t\u00f6nvaihdot jne.\n\nYleist\u00e4 kommenttia:\ns\u00e4\u00e4nn\u00f6ist\u00e4 kaivataan yksityiskohtaista opastusta, esim. koulutusta. Voisiko j\u00e4rjest\u00e4\u00e4 esim. sis\u00e4ist\u00e4 kurssitusta jotta s\u00e4hk\u00f6ll\u00e4 osataan ottaa huomiota s\u00e4\u00e4nt\u00f6kohdat esim. veljes/sisarj\u00e4rjest\u00f6jen kanssa yhdess\u00e4."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material",
+                            "tarjouspyynn\u00f6t ja tarjouskierros monimutkainen ja aikaa viev\u00e4 prosessi. Kaikkiaan kun saadaan 3 tarjousta sen j\u00e4lkeen alkaa uusi tinkauskierros jossa taas hintaa lasketaan. Kun on p\u00e4\u00e4sty loppusuoralle asiat on jo muuttuneet. (Esim. tullut uusia s\u00e4hk\u00f6nkuluttajia tai uutta tietoa). \n\nLogistiikka ja tuotteiden oikea aikataulutus on haasteellinen, aikataulut eiv\u00e4t p\u00e4de tai sitten tavarat ovat llian aikaisin telakalla. Kustannuksia ja haasteita s\u00e4ilytt\u00e4miseen\n\nBudjetin seuranta, vastuut kenelle kuuluu budjettiseuranta?\n\nTavaroiden tulemisen viiv\u00e4styminen joko toimittajasta tai telakasta johtuen. Nk. toimitusvalvonta puuttuu t\u00e4ll\u00e4 hetkell\u00e4 kokonaan. Osto ei seuraa tulevatko tavarat silloin kuin pit\u00e4isi tulla.\nKuormittaa suunnittelua runsaasti jos asiat ei mene kuten pit\u00e4isi."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok.",
+                            "PES s\u00e4hk\u00f6n osalta kannattaisi tehd\u00e4 telakan omalla v\u00e4ell\u00e4. 518 tehtiin Kroatiassa jossa oli paljon virheit\u00e4 ja niit\u00e4 jouduttiin sitten VAS-suunnittelussa korjaamaan ja paikkaamaan. Pit\u00e4\u00e4 selvitt\u00e4\u00e4 alihankkijan kyky toimittaa taatusti laadukasta ty\u00f6t\u00e4 jota ei telakka sitten joudu parsimaan kasaan uudestaan.\n\nAina halvalla suunnittelutoimistolla esim. KT ei ole ollenkaan omaa s\u00e4hk\u00f6suunnittelua vaan he tilaavat sen jostain ulkopuolelta. T\u00e4ss\u00e4 on monta liikkuvaa osaa jotka pit\u00e4\u00e4 korjata ja rikkin\u00e4inen puhelin -ongelma.\n\nTarvitaan parempaa koordinointia ja aikaa telakalla valvoa KT ja muita alihankkijoita."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging...",
+                            "Suunnittelua tehd\u00e4\u00e4n samaan aikaan monella osastolla, eli siin\u00e4 vaiheessa kun telakan pit\u00e4\u00e4 jo l\u00f6yd\u00e4 lukkoon s\u00e4hk\u00f6n jakelun keskukset ei viel\u00e4 ole tarpeeksi l\u00e4ht\u00f6tietoja mit\u00e4 ollaan ostamalla muilla osastoilla.\n\nMuutokset vaatisivat tarkempaa muutoshallintaa ja kertomista eri osastoiden v\u00e4lill\u00e4. Eli tarvitsee olla vaikka ty\u00f6ryhm\u00e4t, jossa olisi my\u00f6s aina s\u00e4hk\u00f6 mukana. Harva laite toimii ilman s\u00e4hk\u00f6\u00e4 ja sit\u00e4 ei tarpeeksi ole otettu huomioon suunnittelussa.\n\n"
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way.",
+                            "protolaivat olivat vaikeita tehd\u00e4, mutta kyll\u00e4 niist\u00e4 opittiin. Osaa asioista ei saatu en\u00e4\u00e4 muutettua joten mentiin samalla tavalla kuin edellisiss\u00e4kin"
+                        ]
+                    }
+                },
+                "9137 Power Socket Units": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9671 Information and audio-visual systems": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9661 Data Network": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9631 Central Antenna System": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9621 Public Addressing System": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9616 UHF Radio System": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9613 Automatic Telephone System": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9612 Talk Back Telephone System": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9611 Sound Powered Telephone System": {
+                    "NB518": {
+                        "ID": [
+                            "11"
+                        ],
+                        "Start time": [
+                            "2023-05-09 12:02:22"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 13:03:04"
+                        ],
+                        "Email": [
+                            "juuso.pihl@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Juuso Pihl"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9121\tTransformers;9125\tUPS Units;9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9137\tPower Socket Units;9671\tInformation and audio-visual systems;9661\tData Network;9631\tCentral Antenna System;9621\tPublic Addressing System;9616\tUHF Radio System;9613\tAutomatic Telephone System;9612\tTalk Back Telephone System;9611\tSound Powered Telephone System;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Mostly"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Nothing special to mention"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "91xx Went well, some minor budget challenges\n96xx Material logistic was big mess. Delivery registration missing. Missing equipment - TK suppliers has no responsibility of any material"
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "Mostly ok."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Internal communication ok. External communication with suppliers mostly ok.\nCommunication with 'the' TK supplier was bit challenging..."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Some things went to correct direction but regarding TK the opposite way."
+                        ]
+                    }
+                },
+                "9300 Monitoring, Control and Automation": {
+                    "NB518": {
+                        "ID": [
+                            "18"
+                        ],
+                        "Start time": [
+                            "2023-05-09 18:04:51"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 18:11:21"
+                        ],
+                        "Email": [
+                            "Mikael.Forsman@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Mikael Forsman"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9300\tMonitoring, Control and Automation;9311\tIntegrated Automation System (IAS);9318\tLight alarms in Engine Spaces;9321\tPower Management System (PMS);9333\tEmergency Telegraph;9342\tLoading Computer;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "No problems"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Budget was good, yard was refunded."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "First time in 20 years automation design made all drawings, not outsourced. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Machinery design have skilled designers."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Jira and ERM  doesn't work as I expected. ACAD without electrical symbols."
+                        ],
+                        "Other comments?": [
+                            "More teamwork before purchase of different sister systems. "
+                        ]
+                    }
+                },
+                "9318 Light alarms in Engine Spaces": {
+                    "NB518": {
+                        "ID": [
+                            "18"
+                        ],
+                        "Start time": [
+                            "2023-05-09 18:04:51"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 18:11:21"
+                        ],
+                        "Email": [
+                            "Mikael.Forsman@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Mikael Forsman"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9300\tMonitoring, Control and Automation;9311\tIntegrated Automation System (IAS);9318\tLight alarms in Engine Spaces;9321\tPower Management System (PMS);9333\tEmergency Telegraph;9342\tLoading Computer;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "No problems"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Budget was good, yard was refunded."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "First time in 20 years automation design made all drawings, not outsourced. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Machinery design have skilled designers."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Jira and ERM  doesn't work as I expected. ACAD without electrical symbols."
+                        ],
+                        "Other comments?": [
+                            "More teamwork before purchase of different sister systems. "
+                        ]
+                    }
+                },
+                "9321 Power Management System (PMS)": {
+                    "NB518": {
+                        "ID": [
+                            "18"
+                        ],
+                        "Start time": [
+                            "2023-05-09 18:04:51"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 18:11:21"
+                        ],
+                        "Email": [
+                            "Mikael.Forsman@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Mikael Forsman"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9300\tMonitoring, Control and Automation;9311\tIntegrated Automation System (IAS);9318\tLight alarms in Engine Spaces;9321\tPower Management System (PMS);9333\tEmergency Telegraph;9342\tLoading Computer;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "No problems"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Budget was good, yard was refunded."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "First time in 20 years automation design made all drawings, not outsourced. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Machinery design have skilled designers."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Jira and ERM  doesn't work as I expected. ACAD without electrical symbols."
+                        ],
+                        "Other comments?": [
+                            "More teamwork before purchase of different sister systems. "
+                        ]
+                    }
+                },
+                "9333 Emergency Telegraph": {
+                    "NB518": {
+                        "ID": [
+                            "18"
+                        ],
+                        "Start time": [
+                            "2023-05-09 18:04:51"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 18:11:21"
+                        ],
+                        "Email": [
+                            "Mikael.Forsman@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Mikael Forsman"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9300\tMonitoring, Control and Automation;9311\tIntegrated Automation System (IAS);9318\tLight alarms in Engine Spaces;9321\tPower Management System (PMS);9333\tEmergency Telegraph;9342\tLoading Computer;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "No problems"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Budget was good, yard was refunded."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "First time in 20 years automation design made all drawings, not outsourced. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Machinery design have skilled designers."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Jira and ERM  doesn't work as I expected. ACAD without electrical symbols."
+                        ],
+                        "Other comments?": [
+                            "More teamwork before purchase of different sister systems. "
+                        ]
+                    }
+                },
+                "9342 Loading Computer": {
+                    "NB518": {
+                        "ID": [
+                            "18"
+                        ],
+                        "Start time": [
+                            "2023-05-09 18:04:51"
+                        ],
+                        "Completion time": [
+                            "2023-05-09 18:11:21"
+                        ],
+                        "Email": [
+                            "Mikael.Forsman@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Mikael Forsman"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9300\tMonitoring, Control and Automation;9311\tIntegrated Automation System (IAS);9318\tLight alarms in Engine Spaces;9321\tPower Management System (PMS);9333\tEmergency Telegraph;9342\tLoading Computer;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Yes"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "No problems"
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "Budget was good, yard was refunded."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "First time in 20 years automation design made all drawings, not outsourced. "
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Machinery design have skilled designers."
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "Jira and ERM  doesn't work as I expected. ACAD without electrical symbols."
+                        ],
+                        "Other comments?": [
+                            "More teamwork before purchase of different sister systems. "
+                        ]
+                    }
+                },
+                "9136 Shore connection (SC1)": {
+                    "NB518": {
+                        "ID": [
+                            "23"
+                        ],
+                        "Start time": [
+                            "2023-05-11 13:10:14"
+                        ],
+                        "Completion time": [
+                            "2023-05-11 13:22:13"
+                        ],
+                        "Email": [
+                            "Leena.Yli-Nikkila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Leena Yli-Nikkil\u00e4"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9136\tShore connection (SC1);9114\tEmergency Diesel Generator;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Kymys ei t\u00e4ysin ymm\u00e4rret\u00e4v\u00e4, tarkoitetaanko t\u00e4ll\u00e4 sit\u00e4 miten s\u00e4hk\u00f6 on onnistunut?"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Omien j\u00e4rjestelmien osalta (s\u00e4hk\u00f6njakelu) vaikuttaa moneen j\u00e4rjestelm\u00e4\u00e4n s\u00e4\u00e4nn\u00f6t esim. tarpeet tuplasy\u00f6t\u00f6ist\u00e4, sy\u00f6t\u00f6nvaihdot jne.\n\nYleist\u00e4 kommenttia:\ns\u00e4\u00e4nn\u00f6ist\u00e4 kaivataan yksityiskohtaista opastusta, esim. koulutusta. Voisiko j\u00e4rjest\u00e4\u00e4 esim. sis\u00e4ist\u00e4 kurssitusta jotta s\u00e4hk\u00f6ll\u00e4 osataan ottaa huomiota s\u00e4\u00e4nt\u00f6kohdat esim. veljes/sisarj\u00e4rjest\u00f6jen kanssa yhdess\u00e4."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "tarjouspyynn\u00f6t ja tarjouskierros monimutkainen ja aikaa viev\u00e4 prosessi. Kaikkiaan kun saadaan 3 tarjousta sen j\u00e4lkeen alkaa uusi tinkauskierros jossa taas hintaa lasketaan. Kun on p\u00e4\u00e4sty loppusuoralle asiat on jo muuttuneet. (Esim. tullut uusia s\u00e4hk\u00f6nkuluttajia tai uutta tietoa). \n\nLogistiikka ja tuotteiden oikea aikataulutus on haasteellinen, aikataulut eiv\u00e4t p\u00e4de tai sitten tavarat ovat llian aikaisin telakalla. Kustannuksia ja haasteita s\u00e4ilytt\u00e4miseen\n\nBudjetin seuranta, vastuut kenelle kuuluu budjettiseuranta?\n\nTavaroiden tulemisen viiv\u00e4styminen joko toimittajasta tai telakasta johtuen. Nk. toimitusvalvonta puuttuu t\u00e4ll\u00e4 hetkell\u00e4 kokonaan. Osto ei seuraa tulevatko tavarat silloin kuin pit\u00e4isi tulla.\nKuormittaa suunnittelua runsaasti jos asiat ei mene kuten pit\u00e4isi."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "PES s\u00e4hk\u00f6n osalta kannattaisi tehd\u00e4 telakan omalla v\u00e4ell\u00e4. 518 tehtiin Kroatiassa jossa oli paljon virheit\u00e4 ja niit\u00e4 jouduttiin sitten VAS-suunnittelussa korjaamaan ja paikkaamaan. Pit\u00e4\u00e4 selvitt\u00e4\u00e4 alihankkijan kyky toimittaa taatusti laadukasta ty\u00f6t\u00e4 jota ei telakka sitten joudu parsimaan kasaan uudestaan.\n\nAina halvalla suunnittelutoimistolla esim. KT ei ole ollenkaan omaa s\u00e4hk\u00f6suunnittelua vaan he tilaavat sen jostain ulkopuolelta. T\u00e4ss\u00e4 on monta liikkuvaa osaa jotka pit\u00e4\u00e4 korjata ja rikkin\u00e4inen puhelin -ongelma.\n\nTarvitaan parempaa koordinointia ja aikaa telakalla valvoa KT ja muita alihankkijoita."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Suunnittelua tehd\u00e4\u00e4n samaan aikaan monella osastolla, eli siin\u00e4 vaiheessa kun telakan pit\u00e4\u00e4 jo l\u00f6yd\u00e4 lukkoon s\u00e4hk\u00f6n jakelun keskukset ei viel\u00e4 ole tarpeeksi l\u00e4ht\u00f6tietoja mit\u00e4 ollaan ostamalla muilla osastoilla.\n\nMuutokset vaatisivat tarkempaa muutoshallintaa ja kertomista eri osastoiden v\u00e4lill\u00e4. Eli tarvitsee olla vaikka ty\u00f6ryhm\u00e4t, jossa olisi my\u00f6s aina s\u00e4hk\u00f6 mukana. Harva laite toimii ilman s\u00e4hk\u00f6\u00e4 ja sit\u00e4 ei tarpeeksi ole otettu huomioon suunnittelussa.\n\n"
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "protolaivat olivat vaikeita tehd\u00e4, mutta kyll\u00e4 niist\u00e4 opittiin. Osaa asioista ei saatu en\u00e4\u00e4 muutettua joten mentiin samalla tavalla kuin edellisiss\u00e4kin"
+                        ]
+                    }
+                },
+                "9114 Emergency Diesel Generator": {
+                    "NB518": {
+                        "ID": [
+                            "23"
+                        ],
+                        "Start time": [
+                            "2023-05-11 13:10:14"
+                        ],
+                        "Completion time": [
+                            "2023-05-11 13:22:13"
+                        ],
+                        "Email": [
+                            "Leena.Yli-Nikkila@helsinkishipyard.fi"
+                        ],
+                        "Name": [
+                            "Leena Yli-Nikkil\u00e4"
+                        ],
+                        "choose system code": [
+                            "9000"
+                        ],
+                        "9000 Electric": [
+                            "9132\tMain Switchboards (MS11_MS12_MS21_MS22);9133\tEmergency Switchboards (ES1_ES2_ES3);9134\tDistribution Boards (PB_LB_HB_OB_etc.);9135\tMotor Starter Units and Separate Starters;9136\tShore connection (SC1);9114\tEmergency Diesel Generator;"
+                        ],
+                        "Are you satisfied with the technical output and choises of the system?\n": [
+                            "Kymys ei t\u00e4ysin ymm\u00e4rret\u00e4v\u00e4, tarkoitetaanko t\u00e4ll\u00e4 sit\u00e4 miten s\u00e4hk\u00f6 on onnistunut?"
+                        ],
+                        "Rules requirements : Easy/hard? Everything fulfilled? Issues with class worth mentioning?": [
+                            "Omien j\u00e4rjestelmien osalta (s\u00e4hk\u00f6njakelu) vaikuttaa moneen j\u00e4rjestelm\u00e4\u00e4n s\u00e4\u00e4nn\u00f6t esim. tarpeet tuplasy\u00f6t\u00f6ist\u00e4, sy\u00f6t\u00f6nvaihdot jne.\n\nYleist\u00e4 kommenttia:\ns\u00e4\u00e4nn\u00f6ist\u00e4 kaivataan yksityiskohtaista opastusta, esim. koulutusta. Voisiko j\u00e4rjest\u00e4\u00e4 esim. sis\u00e4ist\u00e4 kurssitusta jotta s\u00e4hk\u00f6ll\u00e4 osataan ottaa huomiota s\u00e4\u00e4nt\u00f6kohdat esim. veljes/sisarj\u00e4rjest\u00f6jen kanssa yhdess\u00e4."
+                        ],
+                        "Material (purchase, logistics, budget) : Your experience and feedback?": [
+                            "tarjouspyynn\u00f6t ja tarjouskierros monimutkainen ja aikaa viev\u00e4 prosessi. Kaikkiaan kun saadaan 3 tarjousta sen j\u00e4lkeen alkaa uusi tinkauskierros jossa taas hintaa lasketaan. Kun on p\u00e4\u00e4sty loppusuoralle asiat on jo muuttuneet. (Esim. tullut uusia s\u00e4hk\u00f6nkuluttajia tai uutta tietoa). \n\nLogistiikka ja tuotteiden oikea aikataulutus on haasteellinen, aikataulut eiv\u00e4t p\u00e4de tai sitten tavarat ovat llian aikaisin telakalla. Kustannuksia ja haasteita s\u00e4ilytt\u00e4miseen\n\nBudjetin seuranta, vastuut kenelle kuuluu budjettiseuranta?\n\nTavaroiden tulemisen viiv\u00e4styminen joko toimittajasta tai telakasta johtuen. Nk. toimitusvalvonta puuttuu t\u00e4ll\u00e4 hetkell\u00e4 kokonaan. Osto ei seuraa tulevatko tavarat silloin kuin pit\u00e4isi tulla.\nKuormittaa suunnittelua runsaasti jos asiat ei mene kuten pit\u00e4isi."
+                        ],
+                        "Drawings (schedule, comments received, changes..) : Lessons learned?": [
+                            "PES s\u00e4hk\u00f6n osalta kannattaisi tehd\u00e4 telakan omalla v\u00e4ell\u00e4. 518 tehtiin Kroatiassa jossa oli paljon virheit\u00e4 ja niit\u00e4 jouduttiin sitten VAS-suunnittelussa korjaamaan ja paikkaamaan. Pit\u00e4\u00e4 selvitt\u00e4\u00e4 alihankkijan kyky toimittaa taatusti laadukasta ty\u00f6t\u00e4 jota ei telakka sitten joudu parsimaan kasaan uudestaan.\n\nAina halvalla suunnittelutoimistolla esim. KT ei ole ollenkaan omaa s\u00e4hk\u00f6suunnittelua vaan he tilaavat sen jostain ulkopuolelta. T\u00e4ss\u00e4 on monta liikkuvaa osaa jotka pit\u00e4\u00e4 korjata ja rikkin\u00e4inen puhelin -ongelma.\n\nTarvitaan parempaa koordinointia ja aikaa telakalla valvoa KT ja muita alihankkijoita."
+                        ],
+                        "Communication (internal and external), Co-operation with different parties (In own team, other design teams, subcontractors, production, suppliers, TK.. )": [
+                            "Suunnittelua tehd\u00e4\u00e4n samaan aikaan monella osastolla, eli siin\u00e4 vaiheessa kun telakan pit\u00e4\u00e4 jo l\u00f6yd\u00e4 lukkoon s\u00e4hk\u00f6n jakelun keskukset ei viel\u00e4 ole tarpeeksi l\u00e4ht\u00f6tietoja mit\u00e4 ollaan ostamalla muilla osastoilla.\n\nMuutokset vaatisivat tarkempaa muutoshallintaa ja kertomista eri osastoiden v\u00e4lill\u00e4. Eli tarvitsee olla vaikka ty\u00f6ryhm\u00e4t, jossa olisi my\u00f6s aina s\u00e4hk\u00f6 mukana. Harva laite toimii ilman s\u00e4hk\u00f6\u00e4 ja sit\u00e4 ei tarpeeksi ole otettu huomioon suunnittelussa.\n\n"
+                        ],
+                        "Comparison to NB516-517 - did we learn?\u00a0": [
+                            "protolaivat olivat vaikeita tehd\u00e4, mutta kyll\u00e4 niist\u00e4 opittiin. Osaa asioista ei saatu en\u00e4\u00e4 muutettua joten mentiin samalla tavalla kuin edellisiss\u00e4kin"
+                        ]
+                    }
+                }
+            }
         }
     }
 }
