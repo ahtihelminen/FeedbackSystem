@@ -1,6 +1,7 @@
 from tools import Tools
 import json
-
+from docx import Document
+from docx.shared import Inches
 
 class HullUpdate(Tools):
     def __init__(self, excelHullFeedackFile, feedbackDatabase):
@@ -10,6 +11,8 @@ class HullUpdate(Tools):
         self.csvHullFeedbackFile = None
         self.listHullFeedbackFile = None
         self.ship = 'NB518'
+        self.questionToExclude = ['ID', 'Start time', 'Completion time', 'Email', 'Name', 'valitse littera', 'choose system code', '1000 Ship general design', '3000 Hull', '4000 Interior', '5000 HVAC', '6000 Propulsion', '7000 Machinery', '8000 Deck', '9000 Electric']
+
 
 
     def applicableString(self, stringToChange):
@@ -58,6 +61,55 @@ class HullUpdate(Tools):
         databaseToWrite.close()
 
 
+    def createFeedbackFiles(self):
+        with open(self.feedbackDatabase, 'r') as feedbackDatabaseFile:
+            
+            databaseToRead = json.load(feedbackDatabaseFile)
+            feedbackDatabaseFile.close()
+
+
+        for hullPart in databaseToRead['feedbacks']['hull']:
+
+            feedbackFileToWrite = Document()
+
+            feedbackFilePathRel = f'../feedbacks/hull/{hullPart}.docx'
+            feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)
+
+            feedbackFileToWrite.add_heading(f'{hullPart}', 0)
+            
+            for ship in databaseToRead['feedbacks']['hull'][hullPart]:
+                
+                feedbackFileToWrite.add_heading(f'{ship}:', level=1)
+
+                questionAnswerTable = feedbackFileToWrite.add_table(rows=1, cols=2)
+                questionAnswerTable.style = 'Table Grid'
+                questionAnswerTable.autofit = False
+                
+                headingCells = questionAnswerTable.rows[0].cells
+                headingCells[0].text = 'Question'
+                headingCells[1].text = 'Answers'
+                headingCells[0].width = Inches(1.5)
+                headingCells[1].width = Inches(5.0)    
+            
+                for question in databaseToRead['feedbacks']['hull'][hullPart][ship]:
+                    
+                    if question in self.questionToExclude:
+                        continue
+
+                    row_cells = questionAnswerTable.add_row().cells
+
+                    question = self.replaceStrings(question, {'\t': ' '})
+                    row_cells[0].text = question
+                    row_cells[0].width = Inches(1.5)
+
+                    for answer in databaseToRead['feedbacks']['hull'][hullPart][ship][question]:
+                        
+                        answer = self.replaceStrings(answer, {'\t': ' '})
+                        row_cells[1].add_paragraph(answer, style='List Bullet')
+                        row_cells[1].width = Inches(5.0)
+
+            feedbackFileToWrite.save(feedbackFilePathAbs)
+
     def test(self):
         questions = self.listHullFeedbackFile[0]
         qadict = self.questionAnswerDict(self.listHullFeedbackFile[1], questions)
@@ -73,6 +125,7 @@ class HullUpdate(Tools):
         self.listHullFeedbackFile = self.convertCsvToList(self.csvHullFeedbackFile)
         #self.test()
         self.updateHullDatabase()
+        self.createFeedbackFiles()
 
 if __name__ == '__main__':
     excelFilepath = "NB518_hull.xlsx"

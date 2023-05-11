@@ -107,11 +107,11 @@ class SystemsUpdate(Tools):
                     for ship in databaseToRead['feedbacks']['systems'][basicSystem][specificSystem]:
                         
                         feedbackFileToWrite.add_heading(f'{ship}:', level=1)
-                        questionsLength = len(databaseToRead['feedbacks']['systems'][basicSystem][specificSystem][ship])
-                        print(questionsLength)
+                        
                         questionAnswerTable = feedbackFileToWrite.add_table(rows=1, cols=2)
                         questionAnswerTable.style = 'Table Grid'
                         questionAnswerTable.autofit = False
+                        
                         headingCells = questionAnswerTable.rows[0].cells
                         headingCells[0].text = 'Question'
                         headingCells[1].text = 'Answers'
@@ -138,14 +138,9 @@ class SystemsUpdate(Tools):
                     feedbackFileToWrite.save(feedbackFilePathAbs)
         
 
-    def test(self):
-        self.createWordDoc()
-
-
     def main(self):
         self.csvSystemsFeedbackFile = self.convertXlsxToCsv(self.excelSystemsFeedackFile)
         self.listSystemsFeedbackFile = self.convertCsvToList(self.csvSystemsFeedbackFile)
-        #self.test()
         self.updateSystemsDatabase()
         self.createFeedbackFiles()
 
