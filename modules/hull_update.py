@@ -11,9 +11,8 @@ class HullUpdate(Tools):
         self.csvHullFeedbackFile = None
         self.listHullFeedbackFile = None
         self.ship = 'NB518'
-        self.questionToExclude = ['ID', 'Start time', 'Completion time', 'Email', 'Name', 'valitse littera', 'choose system code', '1000 Ship general design', '3000 Hull', '4000 Interior', '5000 HVAC', '6000 Propulsion', '7000 Machinery', '8000 Deck', '9000 Electric']
-
-
+        self.questionToExclude = ['ID', 'Start time', 'Completion time', 'Email', 'Name', 'valitse littera', 'choose system code', 'choose your area', '1000 Ship general design', '3000 Hull', '4000 Interior', '5000 HVAC', '6000 Propulsion', '7000 Machinery', '8000 Deck', '9000 Electric']
+        self.mode = None
 
     def applicableString(self, stringToChange):
         stringToChange = stringToChange.strip()
@@ -95,7 +94,12 @@ class HullUpdate(Tools):
                     
                     if question in self.questionToExclude:
                         continue
+                    
+                    if question == 'Valitse / choose':
+                        self.mode = databaseToRead['feedbacks']['hull'][hullPart][ship][question][0]
+                        continue
 
+                    
                     row_cells = questionAnswerTable.add_row().cells
 
                     question = self.replaceStrings(question, {'\t': ' '})
@@ -103,9 +107,13 @@ class HullUpdate(Tools):
                     row_cells[0].width = Inches(1.5)
 
                     for answer in databaseToRead['feedbacks']['hull'][hullPart][ship][question]:
-                        
                         answer = self.replaceStrings(answer, {'\t': ' '})
-                        row_cells[1].add_paragraph(answer, style='List Bullet')
+                        
+
+
+                        ansToAdd = f'{self.mode}: {answer}'
+
+                        row_cells[1].add_paragraph(ansToAdd, style='List Bullet')
                         row_cells[1].width = Inches(5.0)
 
             feedbackFileToWrite.save(feedbackFilePathAbs)
