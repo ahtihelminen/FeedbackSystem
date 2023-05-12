@@ -6,7 +6,7 @@ from docx.shared import Inches
 
 
 class SystemsUpdate(Tools):
-    def __init__(self, excelSystemsFeedackFile, feedbackDatabase):
+    def __init__(self, excelSystemsFeedackFile, feedbackDatabase, mode):
         super().__init__()
         self.excelSystemsFeedackFile = excelSystemsFeedackFile
         self.feedbackDatabase = feedbackDatabase
@@ -14,6 +14,7 @@ class SystemsUpdate(Tools):
         self.listSystemsFeedbackFile = None
         self.ship = 'NB518'
         self.questionToExclude = ['ID', 'Start time', 'Completion time', 'Email', 'Name', 'valitse littera', 'choose system code', '1000 Ship general design', '3000 Hull', '4000 Interior', '5000 HVAC', '6000 Propulsion', '7000 Machinery', '8000 Deck', '9000 Electric']
+        self.mode = mode
 
 
     def extractSystems(self, Q_A_dict):
@@ -83,6 +84,7 @@ class SystemsUpdate(Tools):
             except Exception as e:
                 print('Error in updateDatabase()', e)
                 json.dump(database, databaseToWrite, indent=4)
+                raise TypeError("Error in feedback update:", e)
         databaseToWrite.close()
 
 
@@ -132,7 +134,10 @@ class SystemsUpdate(Tools):
                             for answer in databaseToRead['feedbacks']['systems'][basicSystem][specificSystem][ship][question]:
                                 
                                 answer = self.replaceStrings(answer, {'\t': ' '})
-                                row_cells[1].add_paragraph(answer, style='List Bullet')
+
+                                ansToAdd = f'{self.mode}: {answer}'
+
+                                row_cells[1].add_paragraph(ansToAdd, style='List Bullet')
                                 row_cells[1].width = Inches(5.0)
 
                     feedbackFileToWrite.save(feedbackFilePathAbs)
@@ -144,8 +149,9 @@ class SystemsUpdate(Tools):
         self.updateSystemsDatabase()
         self.createFeedbackFiles()
 
-if __name__ == '__main__':
+'''if __name__ == '__main__':
     excelFilepath = "NB518_design.xlsx"
     
-    systemsUpdate = SystemsUpdate(excelFilepath, '../databases/feedbackDatabaseTest.json')
+    systemsUpdate = SystemsUpdate(excelFilepath, '../databases/feedbackDatabaseTest.json', 'Design')
     systemsUpdate.main()
+'''
