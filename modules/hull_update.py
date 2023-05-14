@@ -2,6 +2,7 @@ from tools import Tools
 import json
 from docx import Document
 from docx.shared import Inches
+import os
 
 class HullUpdate(Tools):
     def __init__(self, excelHullFeedackFile, feedbackDatabase):
@@ -71,8 +72,15 @@ class HullUpdate(Tools):
 
             feedbackFileToWrite = Document()
 
-            feedbackFilePathRel = f'../feedbacks/hull/{hullPart}.docx'
-            feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)
+            try:
+                relBasicSystemPath = f'../Feedbacks/Hull/{hullPart}'
+                os.mkdir(self.relativeFilepathToAbsolute(relBasicSystemPath))
+                print('Dir created', relBasicSystemPath)
+            except FileExistsError:
+                print(f'Directory {relBasicSystemPath} already exists')
+            finally:
+                feedbackFilePathRel = f'../feedbacks/hull/{hullPart}.docx'
+                feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)
 
             feedbackFileToWrite.add_heading(f'{hullPart}', 0)
             

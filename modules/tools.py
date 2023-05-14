@@ -16,9 +16,13 @@ class Tools:
         dataFrameToBeConverted = pd.read_excel(excelFeedbackFile)
         
         filename = excelFeedbackFile.split('/')[-1]
-
-        csvFilepathRel = f"../feedbacksCsv/{filename.replace('.xlsx', '.csv')}"
-        csvFilepathAbs = self.relativeFilepathToAbsolute(csvFilepathRel)
+        try:
+            os.mkdir(self.relativeFilepathToAbsolute('../feedbacksCsv'))
+        except FileExistsError:
+            pass
+        finally:
+            csvFilepathRel = f"../feedbacksCsv/{filename.replace('.xlsx', '.csv')}"
+            csvFilepathAbs = self.relativeFilepathToAbsolute(csvFilepathRel)
 
         dataFrameToBeConverted.to_csv(csvFilepathAbs, index=None, header=True, sep=';', encoding='utf-8')
         return csvFilepathAbs
