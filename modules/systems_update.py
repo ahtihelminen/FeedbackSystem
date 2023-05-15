@@ -2,7 +2,7 @@ from tools import Tools
 import json
 from docx import Document
 from docx.shared import Inches
-
+import os
 
 
 class SystemsUpdate(Tools):
@@ -101,8 +101,18 @@ class SystemsUpdate(Tools):
 
                     feedbackFileToWrite = Document()
 
-                    feedbackFilePathRel = f'../feedbacks/Systems/{basicSystem}/{specificSystem}.docx'
-                    feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)
+                    try:
+                        relBasicSystemPath = f'../Feedbacks/Systems/{basicSystem}'
+                        os.mkdir(self.relativeFilepathToAbsolute(relBasicSystemPath))
+                        print('Dir created', relBasicSystemPath)
+                    except FileExistsError:
+                        print(f'Directory {relBasicSystemPath} already exists')
+                    finally:
+                        feedbackFilePathRel = f'../feedbacks/Systems/{basicSystem}/{specificSystem}.docx'
+                        feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)    
+
+
+                    
 
                     feedbackFileToWrite.add_heading(f'{specificSystem}', 0)
                     
