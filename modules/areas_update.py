@@ -28,6 +28,8 @@ class AreasUpdate(Tools):
 
     def updateAreasDatabase(self):
 
+        self.initializeDatabase()
+
         self.feedbackDatabase = self.relativeFilepathToAbsolute(self.feedbackDatabase)
         questions = self.listAreasFeedbackFile[0]
         database = self.readJSON(self.feedbackDatabase)
@@ -82,6 +84,7 @@ class AreasUpdate(Tools):
 
 
     def main(self):
+        self.createCsvDir()
         self.csvAreasFeedbackFile = self.convertXlsxToCsv(self.excelAreasFeedackFile)
         self.listAreasFeedbackFile = self.convertCsvToList(self.csvAreasFeedbackFile)
         #self.test()

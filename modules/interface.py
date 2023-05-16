@@ -3,6 +3,7 @@ from tkinter import filedialog
 import systems_update
 import areas_update
 import hull_update
+import os
 
 class Application(tk.Frame):
     def __init__(self, master=None):
@@ -10,6 +11,7 @@ class Application(tk.Frame):
         self.master = master
         self.master.title("Feedback Updater")
         self.master.geometry("640x480")
+        self.master.resizable(False, False)
         self.pack(fill="both", expand=True)
         self.create_widgets()
 
@@ -104,7 +106,7 @@ class Application(tk.Frame):
                 print("Error in feedback update:", TE)
 
                 
-
+print(os.path.dirname(__file__))
 root = tk.Tk()
 app = Application(master=root)
 app.mainloop()

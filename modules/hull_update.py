@@ -24,6 +24,8 @@ class HullUpdate(Tools):
 
     def updateHullDatabase(self):
 
+        self.initializeDatabase()
+
         self.feedbackDatabase = self.relativeFilepathToAbsolute(self.feedbackDatabase)
         questions = self.listHullFeedbackFile[0]
         database = self.readJSON(self.feedbackDatabase)
@@ -71,6 +73,9 @@ class HullUpdate(Tools):
         for hullPart in databaseToRead['feedbacks']['hull']:
 
             feedbackFileToWrite = Document()
+
+            self.createFeedbackDir()
+            self.createHullDir()
 
             try:
                 relBasicSystemPath = f'../Feedbacks/Hull/{hullPart}'
@@ -126,6 +131,7 @@ class HullUpdate(Tools):
 
             feedbackFileToWrite.save(feedbackFilePathAbs)
 
+
     def test(self):
         questions = self.listHullFeedbackFile[0]
         qadict = self.questionAnswerDict(self.listHullFeedbackFile[1], questions)
@@ -137,14 +143,17 @@ class HullUpdate(Tools):
 
 
     def main(self):
+        self.createCsvDir()
         self.csvHullFeedbackFile = self.convertXlsxToCsv(self.excelHullFeedackFile)
         self.listHullFeedbackFile = self.convertCsvToList(self.csvHullFeedbackFile)
         #self.test()
         self.updateHullDatabase()
         self.createFeedbackFiles()
 
-if __name__ == '__main__':
+
+'''if __name__ == '__main__':
     excelFilepath = "NB518_hull.xlsx"
     
     hullUpdate = HullUpdate(excelFilepath, '../databases/feedbackDatabaseTest.json')
     hullUpdate.main()
+'''

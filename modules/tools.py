@@ -63,4 +63,37 @@ class Tools:
     def removePersonalData(self, Q_A_dict):
         pass
 
+
+    def createDir(self, relPath):
+        try:
+            os.mkdir(self.relativeFilepathToAbsolute(relPath))
+            print('Dir created', relPath)
+        except FileExistsError:
+            print('Dir already exists', relPath)
+        
+    def createFeedbackDir(self):
+        self.createDir('../Feedbacks')
     
+    def createSystemDir(self):
+        self.createDir('../Feedbacks/Systems')
+    
+    def createHullDir(self):
+        self.createDir('../Feedbacks/Hull')
+    
+    def createAreaDir(self):
+        self.createDir('../Feedbacks/Areas')
+    
+    def createDatabasesDir(self):
+        self.createDir('../databases')
+    
+    def initializeDatabase(self):
+        self.createDatabasesDir()
+        try:
+            with open(self.relativeFilepathToAbsolute('../databases/feedbackDatabaseTest.json'), 'w') as feedbackDatabase:
+                json.dump({'feedbacks': {'areas': {}, 'hull': {}, 'systems': {}}}, feedbackDatabase, indent=4)
+            feedbackDatabase.close()
+        except FileExistsError:
+            print('file "../databases/feedbackDatabaseTest.json" already exists')
+
+    def createCsvDir(self):
+        self.createDir('../feedbacksCsv')

@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['modules\\interface.py', 'modules\\tools.py', 'modules\\systems_update.py', 'modules\\areas_update.py', 'modules\\hull_update.py', 'databases\\feedbackDatabaseTest.json'],
+    ['modules\\interface.py', 'modules\\tools.py', 'modules\\systems_update.py', 'modules\\areas_update.py', 'modules\\hull_update.py'],
     pathex=[],
     binaries=[],
     datas=[],

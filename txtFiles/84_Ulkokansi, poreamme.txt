@@ -1,1 +1,0 @@
-['1', '5.5.23 8:43:04', '5.5.23 8:45:01', 'ahti.helminen@helsinkishipyard.fi', 'Ahti Helminen', '84\tUlkokansi, poreamme', 'Ei', '', '', 'Työntekijöiden laiskuus', 'Parempi rekrytointi', 'Erinomaisesti', 'Toimiva kysely']

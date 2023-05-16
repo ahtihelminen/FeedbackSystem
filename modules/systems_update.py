@@ -44,6 +44,8 @@ class SystemsUpdate(Tools):
 
     def updateSystemsDatabase(self):
 
+        self.initializeDatabase()
+
         self.feedbackDatabase = self.relativeFilepathToAbsolute(self.feedbackDatabase)
         questions = self.listSystemsFeedbackFile[0]
         database = self.readJSON(self.feedbackDatabase)
@@ -101,6 +103,9 @@ class SystemsUpdate(Tools):
 
                     feedbackFileToWrite = Document()
 
+                    self.createFeedbackDir()
+                    self.createSystemDir()
+
                     try:
                         relBasicSystemPath = f'../Feedbacks/Systems/{basicSystem}'
                         os.mkdir(self.relativeFilepathToAbsolute(relBasicSystemPath))
@@ -154,6 +159,7 @@ class SystemsUpdate(Tools):
         
 
     def main(self):
+        self.createCsvDir()
         self.csvSystemsFeedbackFile = self.convertXlsxToCsv(self.excelSystemsFeedackFile)
         self.listSystemsFeedbackFile = self.convertCsvToList(self.csvSystemsFeedbackFile)
         self.updateSystemsDatabase()
