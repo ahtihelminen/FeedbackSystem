@@ -79,13 +79,13 @@ class HullUpdate(Tools):
             self.createHullDir()
 
             try:
-                relBasicSystemPath = f'../Feedbacks/Hull/{hullPart}'
+                relBasicSystemPath = f'../../Feedbacks/Hull/{hullPart}'
                 os.mkdir(self.relativeFilepathToAbsolute(relBasicSystemPath))
                 print('Dir created', relBasicSystemPath)
             except FileExistsError:
                 print(f'Directory {relBasicSystemPath} already exists')
             finally:
-                feedbackFilePathRel = f'../feedbacks/hull/{hullPart}.docx'
+                feedbackFilePathRel = f'../../Feedbacks/hull/{hullPart}.docx'
                 feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)
 
             feedbackFileToWrite.add_heading(f'{hullPart}', 0)

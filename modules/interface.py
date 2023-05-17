@@ -4,10 +4,12 @@ import systems_update
 import areas_update
 import hull_update
 import os
+from tools import Tools
 
-class Application(tk.Frame):
+class Application(tk.Frame, Tools):
     def __init__(self, master=None):
         super().__init__(master)
+        self.feedbackDatabasePathRel = '../../databases/feedbackDatabase.json'
         self.master = master
         self.master.title("Feedback Updater")
         self.master.geometry("640x480")
@@ -110,19 +112,19 @@ class Application(tk.Frame):
                 return
             
             elif self.radio_var.get() == "Area managers and outfitting foreman":
-                updater = areas_update.AreasUpdate(self.filename, '../databases/feedbackDatabaseTest.json', self.ship)
+                updater = areas_update.AreasUpdate(self.filename, self.feedbackDatabasePathRel, self.ship)
             
             elif self.radio_var.get() == "Comissioning":
-                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Comissioning', self.ship)
+                updater = systems_update.SystemsUpdate(self.filename, self.feedbackDatabasePathRel, 'Comissioning', self.ship)
 
             elif self.radio_var.get() == "Design":
-                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Design', self.ship)
+                updater = systems_update.SystemsUpdate(self.filename, self.feedbackDatabasePathRel, 'Design', self.ship)
             
             elif self.radio_var.get() == "Electric":
-                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Electric', self.ship)
+                updater = systems_update.SystemsUpdate(self.filename, self.feedbackDatabasePathRel, 'Electric', self.ship)
             
             elif self.radio_var.get() == "Hull":
-                updater = hull_update.HullUpdate(self.filename, '../databases/feedbackDatabaseTest.json', self.ship)
+                updater = hull_update.HullUpdate(self.filename, self.feedbackDatabasePathRel, self.ship)
             
             try:
                 updater.main()

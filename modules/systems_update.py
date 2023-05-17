@@ -109,13 +109,13 @@ class SystemsUpdate(Tools):
                     self.createSystemDir()
 
                     try:
-                        relBasicSystemPath = f'../Feedbacks/Systems/{basicSystem}'
+                        relBasicSystemPath = f'../../Feedbacks/Systems/{basicSystem}'
                         os.mkdir(self.relativeFilepathToAbsolute(relBasicSystemPath))
                         print('Dir created', relBasicSystemPath)
                     except FileExistsError:
                         print(f'Directory {relBasicSystemPath} already exists')
                     finally:
-                        feedbackFilePathRel = f'../feedbacks/Systems/{basicSystem}/{specificSystem}.docx'
+                        feedbackFilePathRel = f'../../Feedbacks/Systems/{basicSystem}/{specificSystem}.docx'
                         feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)    
 
 

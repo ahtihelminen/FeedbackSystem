@@ -3,13 +3,12 @@ import csv
 import json
 import pandas as pd
 import os
-from docx import Document
-from docx.shared import Inches
+
 
 
 class Tools:
     def __init__(self) -> None:
-        pass
+        self.feedbackDatabasePathRel = '../../databases/feedbackDatabase.json' 
 
     def convertXlsxToCsv(self, excelFeedbackFile):
         
@@ -17,11 +16,11 @@ class Tools:
         
         filename = excelFeedbackFile.split('/')[-1]
         try:
-            os.mkdir(self.relativeFilepathToAbsolute('../feedbacksCsv'))
+            os.mkdir(self.relativeFilepathToAbsolute('../../feedbacksCsv'))
         except FileExistsError:
             pass
         finally:
-            csvFilepathRel = f"../feedbacksCsv/{filename.replace('.xlsx', '.csv')}"
+            csvFilepathRel = f"../../feedbacksCsv/{filename.replace('.xlsx', '.csv')}"
             csvFilepathAbs = self.relativeFilepathToAbsolute(csvFilepathRel)
 
         dataFrameToBeConverted.to_csv(csvFilepathAbs, index=None, header=True, sep=';', encoding='utf-8')
@@ -72,24 +71,24 @@ class Tools:
             print('Dir already exists', relPath)
         
     def createFeedbackDir(self):
-        self.createDir('../Feedbacks')
+        self.createDir('../../Feedbacks')
     
     def createSystemDir(self):
-        self.createDir('../Feedbacks/Systems')
+        self.createDir('../../Feedbacks/Systems')
     
     def createHullDir(self):
-        self.createDir('../Feedbacks/Hull')
+        self.createDir('../../Feedbacks/Hull')
     
     def createAreaDir(self):
-        self.createDir('../Feedbacks/Areas')
+        self.createDir('../../Feedbacks/Areas')
     
     def createDatabasesDir(self):
-        self.createDir('../databases')
+        self.createDir('../../databases')
     
     def initializeDatabase(self):
         self.createDatabasesDir()
         try:
-            with open(self.relativeFilepathToAbsolute('../databases/feedbackDatabaseTest.json'), 'w') as feedbackDatabase:
+            with open(self.relativeFilepathToAbsolute(self.feedbackDatabasePathRel), 'w') as feedbackDatabase:
                 json.dump({'feedbacks': {'areas': {}, 'hull': {}, 'systems': {
                     "1000": {},
                     "2000": {},
@@ -103,7 +102,7 @@ class Tools:
                 }}}, feedbackDatabase, indent=4)
             feedbackDatabase.close()
         except FileExistsError:
-            print('file "../databases/feedbackDatabaseTest.json" already exists')
+            print(f'file "{self.feedbackDatabasePathRel}" already exists')
 
     def createCsvDir(self):
-        self.createDir('../feedbacksCsv')
+        self.createDir('../../feedbacksCsv')

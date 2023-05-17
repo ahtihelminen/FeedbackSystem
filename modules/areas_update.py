@@ -17,7 +17,7 @@ class AreasUpdate(Tools):
             'Completion time',
             'Email',
             'Name',
-            '§',
+            'Valitse alue / alueet',
             'valitse littera',
             'choose system code',
             '1000 Ship general design',
@@ -46,9 +46,9 @@ class AreasUpdate(Tools):
 
     def extractAreasForCreate(self, Q_A_dict):
         try:
-            if '§' not in Q_A_dict:
+            if 'Valitse alue / alueet' not in Q_A_dict:
                 return ['']
-            areasList = Q_A_dict['§'].split(';')
+            areasList = Q_A_dict['Valitse alue / alueet'].split(';')
             areaDirList = []
 
             dirDict = {
@@ -158,7 +158,7 @@ class AreasUpdate(Tools):
             feedbackFileToWrite = Document()
 
             
-            feedbackFilePathRel = f'../feedbacks/areas/{area}.docx'
+            feedbackFilePathRel = f'../../Feedbacks/Areas/{area}.docx'
             feedbackFilePathAbs = self.relativeFilepathToAbsolute(feedbackFilePathRel)
 
             feedbackFileToWrite.add_heading(f'{area}', 0)
