@@ -5,13 +5,13 @@ from docx.shared import Inches
 import os
 
 class HullUpdate(Tools):
-    def __init__(self, excelHullFeedackFile, feedbackDatabase):
+    def __init__(self, excelHullFeedackFile, feedbackDatabase, ship):
         super().__init__()
         self.excelHullFeedackFile = excelHullFeedackFile
         self.feedbackDatabase = feedbackDatabase
         self.csvHullFeedbackFile = None
         self.listHullFeedbackFile = None
-        self.ship = 'NB518'
+        self.ship = ship
         self.questionToExclude = ['ID', 'Start time', 'Completion time', 'Email', 'Name', 'valitse littera', 'choose system code', 'choose your area', '1000 Ship general design', '3000 Hull', '4000 Interior', '5000 HVAC', '6000 Propulsion', '7000 Machinery', '8000 Deck', '9000 Electric']
         self.mode = None
 
@@ -60,6 +60,7 @@ class HullUpdate(Tools):
             except Exception as e:
                 print('Error in updateDatabase()', e)
                 json.dump(database, databaseToWrite, indent=4)
+                raise TypeError('Incorrect file or mode selected!')
         databaseToWrite.close()
 
 

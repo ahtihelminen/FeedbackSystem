@@ -90,7 +90,17 @@ class Tools:
         self.createDatabasesDir()
         try:
             with open(self.relativeFilepathToAbsolute('../databases/feedbackDatabaseTest.json'), 'w') as feedbackDatabase:
-                json.dump({'feedbacks': {'areas': {}, 'hull': {}, 'systems': {}}}, feedbackDatabase, indent=4)
+                json.dump({'feedbacks': {'areas': {}, 'hull': {}, 'systems': {
+                    "1000": {},
+                    "2000": {},
+                    "3000": {},
+                    "4000": {},
+                    "5000": {},
+                    "6000": {},
+                    "7000": {},
+                    "8000": {},
+                    "9000": {}
+                }}}, feedbackDatabase, indent=4)
             feedbackDatabase.close()
         except FileExistsError:
             print('file "../databases/feedbackDatabaseTest.json" already exists')

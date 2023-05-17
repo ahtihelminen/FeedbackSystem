@@ -13,6 +13,7 @@ class Application(tk.Frame):
         self.master.geometry("640x480")
         self.master.resizable(False, False)
         self.pack(fill="both", expand=True)
+        self.ship = 'No ship selected'
         self.create_widgets()
 
 
@@ -33,11 +34,18 @@ class Application(tk.Frame):
         self.filename_label["width"] = 40
         self.filename_label.place(relx=0.65, rely=0.15, anchor="center")
 
-        self.radio_menu_label = tk.Label(self)
-        self.radio_menu_label["text"] = "Select mode:"
-        self.radio_menu_label["font"] = ("Arial", 12)
-        
-        self.radio_menu_label.place(relx=0.15, rely=0.25, anchor="w")
+        self.select_mode_label = tk.Label(self)
+        self.select_mode_label["text"] = "Select mode:"
+        self.select_mode_label["font"] = ("Arial", 12)
+        self.select_mode_label.place(relx=0.15, rely=0.25, anchor="w")
+
+        self.ship_label = tk.Label(self)
+        self.ship_label["text"] = f"Ship: {self.ship}"
+        self.ship_label["font"] = ("Arial", 12)
+        self.ship_label["borderwidth"] = 2
+        self.ship_label["relief"] = "solid"
+        self.ship_label["width"] = 20
+        self.ship_label.place(relx=0.55, rely=0.25, anchor="w")
 
         # Option menu to select the mode
         self.radio_var = tk.StringVar()
@@ -58,7 +66,17 @@ class Application(tk.Frame):
         self.radio_button_hull = tk.Radiobutton(self, text="Hull", variable=self.radio_var, value="Hull")
         self.radio_button_hull.place(relx=0.15, rely=0.5, anchor="w")
         
-       
+        # input field to write the ship
+        self.ship_input = tk.Entry(self)
+        self.ship_input.place(relx=0.55, rely=0.32, anchor="w")
+
+        # button to set the ship
+        self.ship_button = tk.Button(self)
+        self.ship_button["text"] = "Set ship"
+        self.ship_button["command"] = self.set_ship
+        self.ship_button.place(relx=0.8, rely=0.32, anchor="w")
+
+
 
         # Create a button to run the feedback update script
         self.update_button = tk.Button(self)
@@ -66,6 +84,11 @@ class Application(tk.Frame):
         self.update_button["command"] = self.run_script
         self.update_button.place(relx=0.5, rely=0.7, anchor="center")
 
+
+    def set_ship(self):
+        self.ship = self.ship_input.get()
+        tk.messagebox.showinfo(title='Succes', message=f'Ship set to "{self.ship}"')
+        self.ship_label["text"] = f"Ship: {self.ship}"
 
     def select_file(self):
         # Open a file dialog to select an Excel file
@@ -78,24 +101,28 @@ class Application(tk.Frame):
         # Run the feedback update script with the selected file
         if hasattr(self, "filename"):
             
+            if self.ship == 'No ship selected':
+                tk.messagebox.askquestion(title='confirmation', message='Do you wish to continue without setting a ship?', icon='warning', default='no')
+                return
+
             if self.radio_var.get() == "init_val":
                 print("Please select a mode!") #label to be mades
                 return
             
             elif self.radio_var.get() == "Area managers and outfitting foreman":
-                updater = areas_update.AreasUpdate(self.filename, '../databases/feedbackDatabaseTest.json')
+                updater = areas_update.AreasUpdate(self.filename, '../databases/feedbackDatabaseTest.json', self.ship)
             
             elif self.radio_var.get() == "Comissioning":
-                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Comissioning')
+                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Comissioning', self.ship)
 
             elif self.radio_var.get() == "Design":
-                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Design')
+                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Design', self.ship)
             
             elif self.radio_var.get() == "Electric":
-                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Electric')
+                updater = systems_update.SystemsUpdate(self.filename, '../databases/feedbackDatabaseTest.json', 'Electric', self.ship)
             
             elif self.radio_var.get() == "Hull":
-                updater = hull_update.HullUpdate(self.filename, '../databases/feedbackDatabaseTest.json')
+                updater = hull_update.HullUpdate(self.filename, '../databases/feedbackDatabaseTest.json', self.ship)
             
             try:
                 updater.main()

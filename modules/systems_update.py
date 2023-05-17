@@ -6,13 +6,13 @@ import os
 
 
 class SystemsUpdate(Tools):
-    def __init__(self, excelSystemsFeedackFile, feedbackDatabase, mode):
+    def __init__(self, excelSystemsFeedackFile, feedbackDatabase, mode, ship):
         super().__init__()
         self.excelSystemsFeedackFile = excelSystemsFeedackFile
         self.feedbackDatabase = feedbackDatabase
         self.csvSystemsFeedbackFile = None
         self.listSystemsFeedbackFile = None
-        self.ship = 'NB518'
+        self.ship = ship
         self.questionToExclude = ['ID', 'Start time', 'Completion time', 'Email', 'Name', 'valitse littera', 'choose system code', '1000 Ship general design', '3000 Hull', '4000 Interior', '5000 HVAC', '6000 Propulsion', '7000 Machinery', '8000 Deck', '9000 Electric']
         self.mode = mode
 
@@ -67,6 +67,8 @@ class SystemsUpdate(Tools):
                             continue
 
                         specificSystem = self.applicableString(specificSystem)
+
+
                         
                         if specificSystem not in databaseToUpdate['feedbacks']['systems'][systemCode]:
                             databaseToUpdate['feedbacks']['systems'][systemCode][specificSystem] = {}
